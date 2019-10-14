@@ -1,0 +1,209 @@
+#one
+{
+    background: url("back3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0%;
+    padding: 0%;
+}
+
+#one1
+{
+    color: white;
+    border-left: 6px solid greenyellow;
+    height: auto;
+    margin-left: 2%;
+    font-size: 30px;
+    padding-top: 2%; 
+}
+a:link, a:visited 
+{
+    float: right;
+    color: white;
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active
+ {
+    color: greenyellow;
+  }
+  
+
+#one3
+{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    padding-bottom: 10%;
+    margin-top: 10%;
+
+}
+#one31
+{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    
+    padding-bottom: 3%;
+    margin-top: 1%;
+
+}
+#one32
+{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    float:none;
+    border: 3px solid white;
+    border-radius: 1em;
+    padding:2%;
+    background-color: black;
+}
+dl
+{
+    background-color: black;
+    color: white;
+    padding-bottom: 3%;
+    margin-top: 0%;
+    padding-left: 2%;
+}
+dt
+{
+    font-size: 30px;
+    text-decoration: underline;
+}
+dd
+{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.abouta
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding:0.01%;
+    text-align: center;
+}
+.abouttexthead
+{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 1%;
+    font-size: 30px;
+}
+.abouttexttext
+{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom:1%;
+    font-size: 20px;
+}
+#test
+{
+    background-color: paleturquoise;
+    padding-top: 1%;
+}
+.formtext
+{
+    font-size: 20px;
+    padding-left: 1%;
+}
+#testbut
+{
+    background-color: gray;
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+    margin-left:2%;
+    border: 2px solid white;
+    border-radius: 1em;
+}
+#call
+{
+    margin: 0%;
+    padding: 2%;
+    background: url("callback.jpg");
+    background-size: cover;
+    color: white; 
+}
+#callbutton
+{
+    background-color: white;
+    font-size: 20px;
+    padding: 0.3%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 0.5em; 
+    color: black;   
+}
+.solntext
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.solntexttext
+{
+    font-style: italic;
+    font-size: 20px;
+}
+#team
+{
+    background: url("teamback.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 0.5%;
+}
+.teamimg
+{
+    width:50%;    
+}
+#teamtable
+{
+    padding:3%;
+    margin:3%;
+    text-align: center;
+    font-size: 30px;
+}
+#contact
+{
+    background: url("teamback.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+
+}
+.contacttext
+{
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.contacttexttext
+{
+
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+
+}
+a.follow
+{
+    text-align: center;
+    float: none;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#login
+{
+    background: url("logback1.jpg");
+    background-size: cover;
+}
