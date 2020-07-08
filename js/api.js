@@ -1,3 +1,4 @@
+
 function diet() {
     document.getElementById("form").addEventListener("click", function (e) { e.preventDefault() });
     var cal = document.getElementById("cal").value;
@@ -20,6 +21,12 @@ function diet() {
 
     $.ajax(settings).done(function (response) {
         console.log(response);
+        var res=response;
+        for (let i in res.week)
+        {
+            console.log(i);
+            // document.getElementById(i).innerHTML+=
+        }
     });
 }
 
