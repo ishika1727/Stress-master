@@ -1,79 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="clonediet.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="bone.js"></script>
-        <title>PERSONALIZED DIET CHART</title>
-    </head>
-    <body>
-        <div id="one">
-                <div class="vl"></div>
-            <div align="left" id="one1">
-                PERSONALIZED DIET CHART
-            </div>
-            <div id="one2" align="right">
-                <a href="main.html">Home </a>
-                            
-            </div>
-            <div class="header_info">
-                <br><br><br><br><br><br><br>
-                Stress Fit creates personalized meal plans based on your food preferences, budget,
-                and schedule. Reach your diet and nutritional goals with our calorie calculator, weekly meal
-                plans, grocery lists and more.
-                <div>Create your meal plan right here in seconds.</div>
-            </div>
-            <form class="form" name="form" onsubmit="validateForm()" method="post">
-                    <ul>
-                    <li>
-                        <label>Name</label>
-                        <input type="text" name="name" maxlength="100">
-                        <span>Enter your full name here</span>
-                    <li>
-                            <label>Age</label>
-                            <input type="text" name="age">
-                            <span>Enter your age</span>
-                        </li>
-                        <li>
-                                <label>Calories</label>
-                                <input type="text" name="cal">
-                                <span>Enter your prefered calorie intake(in kcal.)</span>
-                            </li>
-                            <li>
-                                <label>Time span</label>
-                                <input type="text" name="time">
-                                <span>Enter your prefered time span of diet chart('day' or 'week')</span>
-                            </li>
-                        </li>
-                        <li>
-                                <label>Primary diet types</label>
-                                <div class="diet">
-                                <input type="radio" name="veg">Vegetarian diet plan<br>
-                                <input type="radio" name="keto">Atkins / ketogenic diet plan<br>
-                                <input type="radio" name="paleo">Paleo diet plan<br>
-                                <input type="radio" name="medi">Mediterranean diet plan<br>
-                                <input type="radio" name="lcarb">Low carb free diet plan<br>
-                                <input type="radio" name="gluten">Gluten free diet plan<br>
-                                <input type="radio" name="vegan">Vegan diet plan<br>
-                            </div>
-                                <span>Choose your prefered diet type</span>
-                            </li>
-                        <li>
-                            <label>Email</label>
-                            <input type="text" name="email" maxlength="100">
-                            <span>Enter a valid email address</span>
-                        </li>
-                    <li>
-                        <label>About You</label>
-                        <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
-                        <span>Say something about yourself</span>
-                    </li>
-                    <li>
-                        <input type="submit" value="Get Diet Chart" onsubmit="return validateForm()">
-                    </li>
-                    </ul>
-                    </form>
-                    <br><br><br><br><br><br><br><br>
-</div>
+
+<head>
+    <link href="./css/clonediet.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bone.js"></script>
+    <script type="text/javascript" src="./js/api.js"></script>
+    <title>PERSONALIZED DIET CHART</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="vl"></div>
+        <div align="left" id="one1">
+            PERSONALIZED DIET CHART
+        </div>
+        <div id="one2" align="right">
+            <a href="index.html">Home </a>
+        </div>
+        <div class="header_info">
+            <br><br><br><br><br><br><br>
+            Stress Fit creates personalized meal plans based on your food preferences, budget,
+            and schedule. Reach your diet and nutritional goals with our calorie calculator, weekly meal
+            plans, grocery lists and more.
+            <div>Create your meal plan right here in seconds.</div>
+        </div>
+        <form class="form" name="form" id="form">
+            <ul>
+                <li>
+                    <label>Name</label>
+                    <input type="text" name="name" maxlength="100">
+                    <span>Enter your full name here</span>
+                <li>
+                    <label>Age</label>
+                    <input type="text" name="age">
+                    <span>Enter your age</span>
+                </li>
+                <li>
+                    <label>Email</label>
+                    <input type="text" name="email" maxlength="100">
+                    <span>Enter a valid email address</span>
+                </li>
+                <li>
+                    <label>Calories</label>
+                    <input type="text" name="cal" id="cal">
+                    <span>Enter your prefered calorie intake(in kcal.)</span>
+                </li>
+                <li>
+                    <label>Time span</label>
+                    <input type="text" name="time" id="timespan">
+                    <span>Enter your prefered time span of diet chart('day' or 'week')</span>
+                </li>
+                </li>
+                <li>
+                    <label>Primary diet types</label>
+                    <div class="diet" id="diet">
+                        <input type="radio" name="veg" value="vegetarian">Vegetarian diet plan<br>
+                        <input type="radio" name="keto" value="ketogenic">Ketogenic diet plan<br>
+                        <input type="radio" name="paleo" value="paleo">Paleo diet plan<br>
+                        <input type="radio" name="whole" value="whole30">Whole 30 diet plan<br>
+                        <input type="radio" name="primal" value="primal">Primal diet plan<br>
+                        <input type="radio" name="pesc" value="pescetarian">Pescetarian diet plan<br>
+                        <input type="radio" name="lcarb" value="lacto-vegetarian">Lacto Vegetarian diet plan<br>
+                        <input type="radio" name="ocarb" value="ovo-vegetarian">Ovo Vegetarian diet plan<br>
+                        <input type="radio" name="gluten" value="gluten free">Gluten free diet plan<br>
+                        <input type="radio" name="vegan" value="vegan">Vegan diet plan<br>
+                    </div>
+                    <span>Choose your prefered diet type</span>
+                </li>
+                <li>
+                    <label>Exclude</label>
+                    <input type="text" name="exclude" maxlength="100" id="exclude">
+                    <span>Enter a food item you want to exclude</span>
+                </li>
+                <li>
+                    <label>About You</label>
+                    <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+                    <span>Say something about yourself</span>
+                </li>
+                <li>
+                    <button onclick="diet()">Get diet chart</button>
+                </li>
+            </ul>
+        </form>
+        <br><br><br><br><br><br><br><br>
     </div>
-    </body>
-    </html>
+    </div>
+</body>
+
+</html>

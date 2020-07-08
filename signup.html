@@ -1,78 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="clonelogin.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript">
-            //auto expand textarea
-            function adjust_textarea(h) {
-                h.style.height = "20px";
-                h.style.height = (h.scrollHeight)+"px";
-            }
-            </script>
-            <script type="text/javascript">
-            function validateForm()
-            {
-                var email=document.forms["form"]["email"].value;
-                var pass=document.forms["form"]["password"].value;
-                var name=document.forms["form"]["name"].value;
-               
-                if(email==""||pass=="")
-                {
-                    alert("All fields are mandatory.")
-                    return false;
-                }
-                if(!"/\w*/".test(name))
-                {
-                    alert("Only alphabets are acceptable in name field.");
-                    return false;
-                }
-                var pattern=/^(\w|\d)+@\w+\.\w(2,)$/;
-                if(pattern.test(email))
-                {
-                    alert("Invalid email address.");
-                }
-                return true;
-              }                
-                
-            </script>
-        <title>SIGNUP</title>
-    </head>
-    <body>
-        <div id="one">
-                <div class="vl"></div>
-            <div align="left" id="one1">
-                Sign Up 
-            </div>
-            <div id="one2" align="right">
-                <a href="main.html">Home </a> 
-                <a href="login.html">Login</a>          
-            </div>
-            <div id="wel">Sign Up For Free</div>
-            <form class="form" name="form" onsubmit="validateForm()" method="post">
-                    <ul>
-                        <li>
-                            <label>Name</label>
-                            <input type="text" name="name" maxlength="100">
-                            <span>Enter your full name</span>
-                        </li>
-                    <li>
-                        <label>Email</label>
-                        <input type="email" name="email" maxlength="100">
-                        <span>Enter your registered email here</span>
-                    <li>
-                            <label>Set a Password</label>
-                            <input type="password" name="password">
-                            <span>Enter Password here</span>
-                        </li>
-                        
-                    <li>
-                        <input type="submit" value="Get Started" onsubmit="return validateForm()">
-                    </li>
-                    </ul>
-                    </form>
-                    <br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br>
-</div>
+
+<head>
+    <link href="./css/loginsignup.css" rel="stylesheet" type="text/css">
+    <title>SIGNUP</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="vl"></div>
+        <div align="left" id="one1">
+            SIGN UP
+        </div>
+        <div id="one2" align="right">
+            <a href="login.html">Login</a>
+            <a href="index.html">Home </a>            
+        </div>
+        <div id="wel">Sign Up For Free</div>
+        <form class="form" name="form" method="post">
+            <ul>
+                <li>
+                    <label>Name</label>
+                    <input type="text" name="name" maxlength="100">
+                    <span>Enter your full name</span>
+                </li>
+                <li>
+                    <label>Email</label>
+                    <input type="email" name="email" maxlength="100">
+                    <span>Enter your registered email here</span>
+                <li>
+                    <label>Set a Password</label>
+                    <input type="password" name="password">
+                    <span>Enter Password here</span>
+                </li>
+
+                <li>
+                    <input type="submit" value="Get Started" >
+                </li>
+            </ul>
+        </form>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
     </div>
-    </body>
-    </html>
+    </div>
+</body>
+
+</html>

@@ -1,67 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="clonelogin.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript">
-            //auto expand textarea
-            function adjust_textarea(h) {
-                h.style.height = "20px";
-                h.style.height = (h.scrollHeight)+"px";
-            }
-            </script>
-            <script type="text/javascript">
-            function validateForm()
-            {
-                var email=document.forms["form"]["email"].value;
-                var pass=document.forms["form"]["password"].value;
-               
-                if(email==""||pass=="")
-                {
-                    alert("All fields are mandatory.")
-                    return false;
-                }
-                var pattern=/^(\w|\d)+@\w+\.\w(2,)$/;
-                if(pattern.test(email))
-                {
-                    alert("Invalid email address.");
-                }
-                return true;
-              }                
-                
-            </script>
-        <title>LOGIN</title>
-    </head>
-    <body>
-        <div id="one">
-                <div class="vl"></div>
-            <div align="left" id="one1">
-                LOGIN
-            </div>
-            <div id="one2" align="right">
-                <a href="main.html">Home </a> 
-                <a href="signup.html">Sign Up</a>          
-            </div>
-            <div id="wel">Welcome Back!!</div>
-            <form class="form" name="form" onsubmit="validateForm()" method="post">
-                    <ul>
-                    <li>
-                        <label>Email</label>
-                        <input type="email" name="email" maxlength="100">
-                        <span>Enter your registered email here</span>
-                    <li>
-                            <label>Password</label>
-                            <input type="password" name="password">
-                            <span>Enter your Password here</span>
-                        </li>
-                        
-                    <li>
-                        <input type="submit" value="Login" onsubmit="return validateForm()">
-                    </li>
-                    </ul>
-                    </form>
-                    <br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br>
-</div>
+
+<head>
+    <link href="./css/loginsignup.css" rel="stylesheet" type="text/css">
+    <title>LOGIN</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="vl"></div>
+        <div align="left" id="one1">
+            LOGIN
+        </div>
+        <div id="one2" align="right">
+
+            <a href="signup.html">Sign up</a>
+            <a href="index.html">Home</a>
+        </div>
+        <div id="wel">Welcome Back!!</div>
+        <form class="form" method="POST" name="form" id="form">
+            <ul>
+                <li>
+                    <label>Email</label>
+                    <input type="email" name="email" maxlength="100">
+                    <span>Enter your registered email here</span>
+                <li>
+                    <label>Password</label>
+                    <input type="password" name="password">
+                    <span>Enter your Password here</span>
+                </li>
+
+                <li>
+                    <input id="butt" type="submit" value="Login">
+                </li>
+            </ul>
+        </form>
+        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
     </div>
-    </body>
-    </html>
+    </div>
+</body>
+<script type="text/javascript" src="login.js"></script>
+
+</html>

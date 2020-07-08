@@ -1,12 +1,11 @@
 #one
 {
-    background: url("back3.jpg");
+    background: url("../assests/back3.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0%;
     padding: 0%;
 }
-
 #one1
 {
     color: white;
@@ -27,11 +26,9 @@ a:link, a:visited
     display: inline-block;
 }
 a:hover, a:active
- {
+{
     color: greenyellow;
-  }
-  
-
+}
 #one3
 {
     font-size: 60px;
@@ -39,14 +36,12 @@ a:hover, a:active
     color:white;
     padding-bottom: 10%;
     margin-top: 10%;
-
 }
 #one31
 {
     font-size: 30px;
     text-align: center;
     color:white;
-    
     padding-bottom: 3%;
     margin-top: 1%;
 
@@ -120,12 +115,13 @@ dd
     margin-left:2%;
     border: 2px solid white;
     border-radius: 1em;
+    margin-bottom: 2%;
 }
 #call
 {
     margin: 0%;
     padding: 2%;
-    background: url("callback.jpg");
+    background: url("../assests/callback.jpg");
     background-size: cover;
     color: white; 
 }
@@ -151,7 +147,7 @@ dd
 }
 #team
 {
-    background: url("teamback.jpg");
+    background: url("../assests/teamback.jpg");
     background-size: cover;
     color: white;
     text-align: center;
@@ -170,12 +166,11 @@ dd
 }
 #contact
 {
-    background: url("teamback.jpg");
+    background: url("../assests/teamback.jpg");
     background-size: cover;
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 2%;
-
 }
 .contacttext
 {
@@ -183,15 +178,12 @@ dd
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
-
 }
 .contacttexttext
 {
-
     color: white;
     font-style: italic;
     font-size: 20px;
-
 }
 a.follow
 {
