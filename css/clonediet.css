@@ -1,6 +1,6 @@
 #one
 {
-    background: url("https://besthqwallpapers.com/img/original/103090/apple-smoothies-4k-fruits-breakfast-smoothie-in-apples.jpg");
+    background: url("../assests/dietback.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,8 +30,8 @@
 a:link, a:visited 
 {
     float: right;
-    color: white;
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -170,4 +170,18 @@ table
 	height:50vh;
 	width: 80vw;
 	text-align: center;
+}
+th{
+	font-size: 24px;
+	padding: 1%;
+}
+td{
+	font-size: 20px;
+}
+td a{
+	color:black;
+	font-size: 20px;
+}
+td a:hover{
+	color:blue;
 }

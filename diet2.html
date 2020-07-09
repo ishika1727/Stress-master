@@ -16,7 +16,7 @@
             PERSONALIZED DIET CHART
         </div>
         <div id="one2" align="right">
-            <a href="index.html">Home </a>
+            <a href="index.html" style="font-size: 28px;">Home </a>
         </div>
         <div class="header_info">
             <br><br><br><br>
@@ -44,28 +44,23 @@
                 <li>
                     <label>Calories</label>
                     <input type="text" name="cal" id="cal">
-                    <span>Enter your prefered calorie intake(in kcal.)</span>
-                </li>
-                <li>
-                    <label>Time span</label>
-                    <input type="text" name="time" id="timespan">
-                    <span>Enter your prefered time span of diet chart('day' or 'week')</span>
+                    <span>Enter your prefered calorie intake(in cal.)</span>
                 </li>
                 </li>
                 <li>
                     <label>Primary diet types</label>
-                    <div class="diet" id="diet">
-                        <input type="radio" name="veg" value="vegetarian">Vegetarian diet plan<br>
-                        <input type="radio" name="keto" value="ketogenic">Ketogenic diet plan<br>
-                        <input type="radio" name="paleo" value="paleo">Paleo diet plan<br>
-                        <input type="radio" name="whole" value="whole30">Whole 30 diet plan<br>
-                        <input type="radio" name="primal" value="primal">Primal diet plan<br>
-                        <input type="radio" name="pesc" value="pescetarian">Pescetarian diet plan<br>
-                        <input type="radio" name="lcarb" value="lacto-vegetarian">Lacto Vegetarian diet plan<br>
-                        <input type="radio" name="ocarb" value="ovo-vegetarian">Ovo Vegetarian diet plan<br>
-                        <input type="radio" name="gluten" value="gluten free">Gluten free diet plan<br>
-                        <input type="radio" name="vegan" value="vegan">Vegan diet plan<br>
-                    </div>
+                    <select class="diet">
+                        <option id="diet" name="veg" value="vegetarian">Vegetarian diet plan</option>
+                        <option id="diet" name="keto" value="ketogenic">Ketogenic diet plan</option>
+                        <option id="diet" name="paleo" value="paleo">Paleo diet plan</option>
+                        <option id="diet" name="whole" value="whole30">Whole 30 diet plan</option>
+                        <option id="diet" name="primal" value="primal">Primal diet plan</option>
+                        <option id="diet" name="pesc" value="pescetarian">Pescetarian diet plan</option>
+                        <option id="diet" name="lcarb" value="lacto-vegetarian">Lacto Vegetarian diet plan</option>
+                        <option id="diet" name="ocarb" value="ovo-vegetarian">Ovo Vegetarian diet plan</option>
+                        <option id="diet" name="gluten" value="gluten free">Gluten free diet plan</option>
+                        <option id="diet" name="vegan" value="vegan">Vegan diet plan</option>
+                    </select>
                     <span>Choose your prefered diet type</span>
                 </li>
                 <li>
@@ -84,7 +79,7 @@
             </ul>
         </form>
         <center>
-            <table border="2"style="background-color: rgba(255,255,255,0.6);border: 2px solid white;">
+            <table border="2" style="background-color: rgba(255,255,255,0.6);border: 2px solid white;">
                 <thead>
                     <tr style="font-size: 20px;">
                         <th>Day</th>
@@ -99,9 +94,9 @@
                 </thead>
 
                 <tbody>
-                    <tr id="monday" >
+                    <tr id="monday">
                         <td>Monday</td>
-                        
+
                     </tr>
                     <tr id="tuesday">
                         <td>Tuesday</td>
@@ -116,7 +111,7 @@
                         <td>Friday</td>
                     </tr>
                     <tr id="saturday">
-                        <td>saturday</td>
+                        <td>Saturday</td>
                     </tr>
                     <tr id="sunday">
                         <td>Sunday</td>
@@ -124,6 +119,7 @@
                 </tbody>
             </table>
         </center>
+        <br><br><br><br>
     </div>
 </body>
 
