@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../css/clonediet.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bone.js"></script>
+    <script type="text/javascript" src="../js/api.js"></script>
+    <title>PERSONALIZED DIET CHART</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="vl"></div>
+        <div align="left" id="one1">
+            PERSONALIZED DIET CHART
+        </div>
+        <div id="one2" align="right">
+            <a href="../index.html" style="font-size: 28px;">Home </a>
+        </div>
+        <div class="header_info">
+            <br><br><br><br>
+            Stress Fit creates personalized meal plans based on your food preferences, budget,
+            and schedule. Reach your diet and nutritional goals with our calorie calculator, weekly meal
+            plans, grocery lists and more.
+            <div>Create your meal plan right here in seconds.</div>
+        </div>
+        <form class="form" name="form" id="form">
+            <ul>
+                <li>
+                    <label>Name</label>
+                    <input type="text" name="name" maxlength="100">
+                    <span>Enter your full name here</span>
+                <li>
+                    <label>Age</label>
+                    <input type="text" name="age">
+                    <span>Enter your age</span>
+                </li>
+                <li>
+                    <label>Email</label>
+                    <input type="text" name="email" maxlength="100">
+                    <span>Enter a valid email address</span>
+                </li>
+                <li>
+                    <label>Calories</label>
+                    <input type="text" name="cal" id="cal">
+                    <span>Enter your prefered calorie intake(in cal.)</span>
+                </li>
+                </li>
+                <li>
+                    <label>Primary diet types</label>
+                    <select class="diet">
+                        <option id="diet" name="veg" value="vegetarian">Vegetarian diet plan</option>
+                        <option id="diet" name="keto" value="ketogenic">Ketogenic diet plan</option>
+                        <option id="diet" name="paleo" value="paleo">Paleo diet plan</option>
+                        <option id="diet" name="whole" value="whole30">Whole 30 diet plan</option>
+                        <option id="diet" name="primal" value="primal">Primal diet plan</option>
+                        <option id="diet" name="pesc" value="pescetarian">Pescetarian diet plan</option>
+                        <option id="diet" name="lcarb" value="lacto-vegetarian">Lacto Vegetarian diet plan</option>
+                        <option id="diet" name="ocarb" value="ovo-vegetarian">Ovo Vegetarian diet plan</option>
+                        <option id="diet" name="gluten" value="gluten free">Gluten free diet plan</option>
+                        <option id="diet" name="vegan" value="vegan">Vegan diet plan</option>
+                    </select>
+                    <span>Choose your prefered diet type</span>
+                </li>
+                <li>
+                    <label>Exclude</label>
+                    <input type="text" name="exclude" maxlength="100" id="exclude">
+                    <span>Enter a food item you want to exclude</span>
+                </li>
+                <li>
+                    <label>About You</label>
+                    <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+                    <span>Say something about yourself</span>
+                </li>
+                <li>
+                    <button onclick="diet()">Get diet chart</button>
+                </li>
+            </ul>
+        </form>
+        <center>
+            <table border="2" style="background-color: rgba(255,255,255,0.6);border: 2px solid white;">
+                <thead>
+                    <tr style="font-size: 20px;">
+                        <th>Day</th>
+                        <th>Breakfast</th>
+                        <th>Lunch</th>
+                        <th>Dinner</th>
+                        <th>Calories</th>
+                        <th>Proteins</th>
+                        <th>Fats</th>
+                        <th>Carbs</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr id="monday">
+                        <td>Monday</td>
+
+                    </tr>
+                    <tr id="tuesday">
+                        <td>Tuesday</td>
+                    </tr>
+                    <tr id="wednesday">
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr id="thursday">
+                        <td>Thursday</td>
+                    </tr>
+                    <tr id="friday">
+                        <td>Friday</td>
+                    </tr>
+                    <tr id="saturday">
+                        <td>Saturday</td>
+                    </tr>
+                    <tr id="sunday">
+                        <td>Sunday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+        <br><br><br><br>
+    </div>
+</body>
+
+</html>
