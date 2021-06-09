@@ -35,6 +35,6 @@ This section provides user with methods to reduce stress through calm music, mot
 Creating and linking to database using MonoDB and NodeJS
 
 ## Contributors :trophy:
+![](readme_resources/index.jpeg)
 
-[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/0)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/0)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/1)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/1)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/2)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/2)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/3)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/3)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/4)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/4)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/5)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/5)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/6)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/6)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/7)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/7)
-
+![](readme_resources/1.svg)
