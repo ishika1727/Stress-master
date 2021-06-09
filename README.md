@@ -2,6 +2,8 @@
 
 Website to promote mental and physical health among all ages through proper meditation and diet.
 
+Check it out [here](https://ishika1727.github.io/Stress-master/)!
+
 ## Tech Stack
 Frontend:
 * HTML
