@@ -38,3 +38,10 @@ Creating and linking to database using MonoDB and NodeJS
 ![](readme_resources/index.jpeg)
 
 ![](readme_resources/1.svg)
+
+## Screenshots
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="readme_resources/1.jpg"> | <img width="1604" alt="2" src="readme_resources/2.jpg">|<img width="1604" alt="3" src="readme_resources/3.jpg">|
+|<img width="1604" alt="4" src="readme_resources/back3.jpg">  |  <img width="1604" alt="5" src="readme_resources/dietback.jpg">|<img width="1604" alt="6" src="readme_resources/solnimg.png">
