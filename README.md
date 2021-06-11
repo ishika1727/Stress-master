@@ -2,6 +2,8 @@
 
 Website to promote mental and physical health among all ages through proper meditation and diet.
 
+Check it out [here](https://ishika1727.github.io/Stress-master/)!
+
 ## Tech Stack
 Frontend:
 * HTML
@@ -35,6 +37,13 @@ This section provides user with methods to reduce stress through calm music, mot
 Creating and linking to database using MonoDB and NodeJS
 
 ## Contributors :trophy:
+![](readme_resources/index.jpeg)
 
-[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/0)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/0)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/1)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/1)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/2)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/2)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/3)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/3)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/4)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/4)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/5)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/5)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/6)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/6)[![](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/images/7)](https://sourcerer.io/fame/ishika1727/ishika1727/Stress-master/links/7)
+![](readme_resources/1.svg)
 
+## Screenshots
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="readme_resources/1.jpg"> | <img width="1604" alt="2" src="readme_resources/2.jpg">|<img width="1604" alt="3" src="readme_resources/3.jpg">|
+|<img width="1604" alt="4" src="readme_resources/back3.jpg">  |  <img width="1604" alt="5" src="readme_resources/dietback.jpg">|<img width="1604" alt="6" src="readme_resources/solnimg.png">
