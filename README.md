@@ -36,11 +36,6 @@ This section provides user with methods to reduce stress through calm music, mot
 
 Creating and linking to database using MonoDB and NodeJS
 
-## Contributors :trophy:
-![](readme_resources/index.jpeg)
-
-![](readme_resources/1.svg)
-
 ## Screenshots
 
 | | | |
