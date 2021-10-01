@@ -36,7 +36,13 @@ a:hover, a:active
     color:white;
     padding-bottom: 10%;
     margin-top: 10%;
+ 
 }
+
+.mid {
+    text-align: center;
+}
+
 #one31
 {
     font-size: 30px;
