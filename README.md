@@ -26,7 +26,7 @@ User fills in some data like type of diet, allergic food items, etc and a diet c
 
 ### Stress Test
 
-It contains a small test where users enters values based on his experience throughout the day and the syste detects level of stress along with smart solutions in order to reduce stress.
+It contains a small test where users enter the values based on his experience throughout the day and the system detects level of stress along with smart solutions in order to reduce stress.
 
 ### Smart Solutions
 
