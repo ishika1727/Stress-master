@@ -9,7 +9,7 @@ Frontend:
 * HTML
 * CSS
 * Boostrap
-* Javascript(Vanilla JS)
+* Javascript
 
 ### Backend+db (preferred):
 * NodeJS
