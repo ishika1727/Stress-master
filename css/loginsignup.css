@@ -7,7 +7,7 @@
 #one1
 {
     color: rgb(51, 51, 51);
-    border-left: 6px solid black;
+    border-left: 6px solid #000000;
     height: auto;
     margin-left: 2%;
     font-size: 30px;
@@ -27,7 +27,7 @@ a:link, a:visited
 .form{
 	max-width:400px;
 	margin:50px auto;
-	background:#fff;
+	background:#ffffff;
 	border-radius:2px;
 	padding:20px;
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -101,11 +101,11 @@ a:link, a:visited
 .form input[type="submit"]:hover,
 .form input[type="button"]:hover{
 	background: #6B9FFF;
-	color:#fff;
+	color:#ffffff;
 }
 a:hover, a:active
 {
-    color: blue;
+    color: #0000ff;
 }
 #wel
 { 
