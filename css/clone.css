@@ -62,6 +62,12 @@ a:hover, a:active
     border-radius: 1em;
     padding:2%;
     background-color: black;
+    transition: all 0.3s;
+}
+#one32:hover{
+    background-color: rgb(173,255,47);
+    color: rgb(40, 66, 0);
+    border: 3px solid rgb(92, 153, 0);
 }
 dl
 {
