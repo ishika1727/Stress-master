@@ -199,3 +199,12 @@ a.follow
     font-style: italic;
     font-size: 20px;
 }
+
+.list-of-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 50px;
+    margin: 0px;
+}
