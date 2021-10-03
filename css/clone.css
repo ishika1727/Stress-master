@@ -1,10 +1,10 @@
 #one
 {
-    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../assests/back2.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0%;
-    padding: 0%;
+
+    background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(245, 85, 85, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 #one1
 {
