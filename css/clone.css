@@ -1,5 +1,6 @@
 #one
 {
+
     background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(245, 85, 85, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
     background-size: cover;
     margin: 0;
@@ -61,6 +62,12 @@ a:hover, a:active
     border-radius: 1em;
     padding:2%;
     background-color: black;
+    transition: all 0.3s;
+}
+#one32:hover{
+    background-color: rgb(173,255,47);
+    color: rgb(40, 66, 0);
+    border: 3px solid rgb(92, 153, 0);
 }
 dl
 {
@@ -197,4 +204,13 @@ a.follow
     color: white;
     font-style: italic;
     font-size: 20px;
+}
+
+.list-of-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    height: 50px;
+    margin: 0px;
 }
