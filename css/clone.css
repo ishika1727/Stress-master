@@ -1,3 +1,7 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 #one
 {
     background: url("../assests/back3.jpg");
@@ -207,4 +211,8 @@ a.follow
 .icon{
     height: 50px;
     margin: 0px;
+}
+#testbut:hover{
+    background-color: black;
+    color: blanchedalmond;
 }
