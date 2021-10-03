@@ -12,6 +12,18 @@
     margin-left: 2%;
     font-size: 30px;
     padding-top: 2%; 
+	z-index:1;
+}
+#one2{
+	margin: -47px 10px 0px 0px;
+}
+#one2 a{
+	font-size: 25px;
+    color: #adff2f;
+}
+#one2 a:hover{
+	color:#c5fa76;
+	text-decoration: underline;
 }
 #primary
 {
@@ -40,11 +52,13 @@ a:link, a:visited
 .header_info
 {
     text-align: center;
-    color: black;
+    /* color: black; */
+    color: #f7f7f7;
     font-size: 18px;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
     padding: 14px 25px;
+	z-index:2;
 }
 .plan
 {
@@ -52,11 +66,11 @@ a:link, a:visited
 }
 .form
 {
-	max-width:400px;
-	margin:50px auto;
-	background:#fff;
-	border-radius:2px;
-	padding:20px;
+	max-width: 490px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 2px;
+    padding: 30px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .form h1
@@ -64,10 +78,11 @@ a:link, a:visited
 	display: block;
 	text-align: center;
 	padding: 0;
-	margin: 0px 0px 20px 0px;
-	color: #5C5C5C;
-	font-size:x-large;
+	margin: 5px 0px 30px 0px;
+	color: #3f82e6;
+	font-size:30px;
 }
+
 .form ul
 {
 	list-style:none;
@@ -81,6 +96,17 @@ a:link, a:visited
 	border:1px solid rgb(104, 155, 94);
 	margin-bottom: 30px;
 	border-radius: 3px;
+}
+.form li button{
+	padding: 10px 20px;
+	background-color: rgb(104, 155, 94);;
+    border: none;
+    color: white;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.form li button:hover{
+	background-color: rgb(103, 177, 88);;
 }
 .form li:last-child
 {
