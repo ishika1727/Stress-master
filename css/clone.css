@@ -1,6 +1,6 @@
 #one
 {
-    background: url("../assests/back3.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('../assests/back2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0%;
