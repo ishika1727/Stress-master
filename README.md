@@ -38,3 +38,9 @@ Creating and linking to database using MonoDB and NodeJS
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="1" src="readme_resources/1.jpg"> | <img width="1604" alt="2" src="readme_resources/2.jpg">|<img width="1604" alt="3" src="readme_resources/3.jpg">|
 |<img width="1604" alt="4" src="readme_resources/back3.jpg">  |  <img width="1604" alt="5" src="readme_resources/dietback.jpg">|<img width="1604" alt="6" src="readme_resources/solnimg.png">
+
+
+
+## Contributors :trophy:
+|      Name :medal_military:    |     Social Media :wave:    | GitHub :octocat: |
+| Ishika Dubey  | :bird: [Twitter](https://twitter.com/ishika1727) <br>:mortar_board: [LinkedIn](https://www.linkedin.com/in/ishika1727/) | [@ishika1727](https://github.com/ishika1727/)      |
