@@ -5,8 +5,8 @@ Website to promote mental and physical health among all ages through proper medi
 Check it out [here](https://ishika1727.github.io/Stress-master/)!
 
 ## Tech Stack
-Frontend:
-* HTML
+### Frontend:
+* HTML 
 * CSS
 * Boostrap
 * Javascript
@@ -16,6 +16,12 @@ Frontend:
 * EpressJS
 * MongoDB
 
+### Learning the Tech Stack 
+1. HTML: https://www.w3schools.com/html/
+2. CSS: https://www.w3schools.com/css/
+3. BOOSTRAP: https://www.w3schools.com/bootstrap/
+4. JAVSCRIPT: https://www.w3schools.com/js/
+
 ## Components
 
 ### Diet Chart
@@ -24,7 +30,7 @@ User fills in some data like type of diet, allergic food items, etc and a diet c
 [Spoonacular Generate Meal Plan](https://spoonacular.com/food-api/docs#Generate-Meal-Plan) 
 
 ### Stress Test
-It contains a small test where users enter the values based on his experience throughout the day and the system detects level of stress along with smart solutions in order to reduce stress.
+It contains a small test where users enter the values based on their experience throughout the day and the system detects level of stress along with smart solutions in order to reduce stress.
 
 ### Smart Solutions 
 This section provides user with methods to reduce stress through calm music, motivational videos, etc. Contact to counsellor option is also given to seek proper help when and if necessary.
