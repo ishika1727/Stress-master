@@ -5,8 +5,8 @@ Website to promote mental and physical health among all ages through proper medi
 Check it out [here](https://ishika1727.github.io/Stress-master/)!
 
 ## Tech Stack
-Frontend:
-* HTML
+### Frontend:
+* HTML 
 * CSS
 * Boostrap
 * Javascript
@@ -15,6 +15,12 @@ Frontend:
 * NodeJS
 * EpressJS
 * MongoDB
+
+### Learning the Tech Stack 
+1. HTML: https://www.w3schools.com/html/
+2. CSS: https://www.w3schools.com/css/
+3. BOOSTRAP: https://www.w3schools.com/bootstrap/
+4. JAVSCRIPT: https://www.w3schools.com/js/
 
 ## Components
 
