@@ -1,11 +1,29 @@
-#one
-{
-
-    background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(245, 85, 85, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
-    background-size: cover;
+* {
     margin: 0;
     padding: 0;
 }
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+#one::before {
+    content: "";
+    height: 132vh;
+    width: 100%;
+    background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(245, 85, 85, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
+    position: absolute;
+    top: 20vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
 #one1
 {
     color: white;
@@ -29,6 +47,84 @@ a:hover, a:active
 {
     color: greenyellow;
 }
+.navbtn{
+    position: absolute;
+    top:20px;
+    right: 10px;
+}
+.navbtn1{
+    position: absolute;
+    top:20px;
+    right: 10px;
+    visibility: hidden ;
+}
+/* navbar responsive  */
+@media(max-width:1600px){
+    #one2{
+        display: block;
+    }
+    #one_2{
+        display: none;
+    }
+    .navbtn{
+        display: none;
+    }
+}
+@media(max-width:1200px) {
+    a:link, a:visited {
+        font-size: 18px;
+        padding: 4px 15px;
+    }    
+}
+@media(max-width:850px) {
+    #one::before {
+        height: 120vh;
+    }
+    a:link, a:visited {
+        padding: 4px 5px;
+    }
+    
+}
+@media(max-width:950px){
+    .nav{
+        height: 15vh;
+    }
+    #one2{
+        display: none;
+    }
+    #one::before{
+        top:15vh;
+    }
+    #one_2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+        background-color: black;
+        justify-content: flex-start;
+        align-items: left;
+        margin: 0;
+        visibility: hidden;
+    }
+    #one_2 a{
+        text-align: left;
+        padding-left: 5%;
+
+    }
+    .navbtn{
+        display: block;
+    }
+
+}
+@media(max-width:600px) {
+    #one::before {
+        top:15vh;
+        height: 80vh;
+    }
+}
+.mh{
+    font-size: 1.1em;
+}
 #one3
 {
     font-size: 60px;
@@ -41,6 +137,10 @@ a:hover, a:active
 
 .mid {
     text-align: center;
+}
+.mid img {
+    width: 60%;
+    height: auto;
 }
 
 #one31
@@ -211,6 +311,8 @@ a.follow
     justify-content: center;
 }
 .icon{
-    height: 50px;
+     height: 50px;
+    width: 50px;
     margin: 0px;
+    border-radius: 50%;
 }
