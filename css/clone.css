@@ -159,8 +159,9 @@ dd
 }
 #team
 {
-    background: url("../assests/teamback.jpg");
-    background-size: cover;
+    /* background: url("../assests/teamback.jpg");
+    background-size: cover; */
+    background-color: rgb(137 135 135);
     color: white;
     text-align: center;
     padding-top: 0.5%;
@@ -171,10 +172,31 @@ dd
 }
 #teamtable
 {
-    padding:3%;
-    margin:3%;
-    text-align: center;
+    padding: 3% 3% 5% 3%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
     font-size: 30px;
+}
+.teamDiv{
+    /* border:2px solid red; */
+    height: 345px;
+    width: 238px;
+    margin:0px auto;
+    border-radius: 15px;
+    background-color: #a4783a;
+    box-shadow: 0 0 14px rgb(255, 255, 255);
+}
+.teamDiv img{
+    height: 287px;
+    width: 238px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.teamDiv span{
+    font-size: 25px;
 }
 #contact
 {
