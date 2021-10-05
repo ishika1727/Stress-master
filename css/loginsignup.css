@@ -1,8 +1,19 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	overflow:hidden;
+}
 #one
 {
     background: url("../assests/ls.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+	
 }
 #one1
 {
@@ -54,13 +65,14 @@ a:link, a:visited
 	float: left;
 	margin-top: -19px;
 	background: rgb(165, 165, 165);
-	height: 14px;
+	height: auto;
 	padding: 2px 5px 2px 5px;
 	color: rgb(240, 232, 232);
 	font-size: 14px;
 	overflow: hidden;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.form input[type="text"],
 .form input[type="email"],
 .form input[type="password"],
 .form textarea,
@@ -97,6 +109,7 @@ a:link, a:visited
 	border-bottom: 3px solid rgb(165, 165, 165);
 	border-radius: 3px;
 	color: rgb(238, 241, 239);
+	cursor: pointer;
 }
 .form input[type="submit"]:hover,
 .form input[type="button"]:hover{
