@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="./js/bone.js">
         </script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>STRESS MASTER</title>
 </head>
 
@@ -16,10 +17,10 @@
         <nav class="nav">
                 <div class="fix">
                         <div class="vl"></div>
-                        <div align="left" id="one1">
+                        <div align="left" id="one1" data-aos='fade-down'>
                                 STRESS FIT
                         </div>
-                        <div id="one2">
+                        <div id="one2" data-aos='zoom-in'>
                                 <a href="#contact">Contact Us </a>
                                 <a href="#about">About Us </a>
                                 <a href="#test">Stress Test </a>
@@ -30,7 +31,7 @@
                                 <a href="./templates/diet2.html">Diet Plan </a>
                                 <a href="#one">Home </a>
                         </div>
-                        <div id="one_2">
+                        <div id="one_2" data-aos='zoom-in'>
                                 <a href="#one">Home </a>
                                 <a href="#about">About Us </a>
                                 <a href="#test">Stress Test </a>
@@ -53,9 +54,9 @@
                 </div>
         </nav>
         <main>
-                <div id="one">
-                        <div id="one3">
-                                <h1 class="mh">
+                <div id="one" >
+                        <div id="one3" data-aos='zoom-in'>
+                                <h1 class="mh" >
                                         <centre>GENERAL <br> STRESS<br>
                                 </h1>
                                 <p id="one31">Feeling stressed? And dont know WHY?</p>
@@ -337,22 +338,22 @@
                 </a><br><br><br><br>
         </div>
         <div id="soln">
-                <p class="abouta">SMART SOLUTION
+                <p class="abouta" data-aos='zoom-in'>SMART SOLUTION
                         <hr>
                 </p>
                 <center><br>
                         <iframe src="https://www.youtube.com/embed/wnHW6o8WMas" width="560" height="315" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>video</iframe>
+                                allowfullscreen data-aos='fade-down'>video</iframe>
                         <p class="solntext">Motivational Video</p>
                         <p class="solntexttext">To rejuvenate your soul<br>Recomended for stress score : 0-40</p><br>
                         <iframe src="https://youtube.com/embed/2OEL4P1Rz04" width="560" height="315" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>video</iframe>
+                                allowfullscreen data-aos='fade-down'>video</iframe>
                         <p class="solntext">Calm Music</p>
                         <p class="solntexttext">To Relax your neurons to the core !<br>Recomended for stress score:
                                 40-65</p><br>
-                        <img src="./assests/solnimg.png">
+                        <img src="./assests/solnimg.png" data-aos='fade-down'>
                         <p class="solntext">Professional Counselling</p>
                         <p class="solntexttext">For those, who just need a little bit of external push , to make it big
                                 in their lives!<br>Recomended for stress score :65-75!</p><br>
@@ -367,10 +368,10 @@
                         <table id="teamtable">
                                 <tr>
                                         <td>
-                                                <img src="./assests/kashish.png" class="teamimg">
+                                                <img src="./assests/kashish.png" class="teamimg" data-aos='zoom-in'>
                                         </td>
                                         <td>
-                                                <img src="./assests/ishika.png" class="teamimg">
+                                                <img src="./assests/ishika.png" class="teamimg" data-aos='zoom-in'>
                                         </td>
                                 </tr>
                                 <tr>
@@ -384,7 +385,7 @@
                         </table>
                 </center>
         </div>
-        <div id="contact">
+        <div id="contact" data-aos='fade-up'>
                 <p class="abouta">CONTACT US
                         <hr>
                 </p>
@@ -406,6 +407,17 @@
                                 
                 </center>
         </div>
+
+
+
+         <!-- Importing Aos Package for "animation on scroll" -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+                AOS.init();
+        </script>
+
+
+
 </body>
 <script>
         $(document).ready(function () {
