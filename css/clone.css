@@ -7,7 +7,7 @@
     position: sticky;
     top: 0;
     background-color: black;
-    height: 20vh;
+    height: 13vh;
     width: 100%;
     margin-bottom: 0;
 }
@@ -28,8 +28,8 @@
 {
     color: white;
     border-left: 6px solid greenyellow;
-    height: auto;
-    margin-left: 2%;
+    height: 1px;
+    margin-left: 50px;
     font-size: 30px;
     padding-top: 2%; 
 }
@@ -38,7 +38,7 @@ a:link, a:visited
     float: right;
     color: white;
     font-size: 18px;
-    padding: 14px 25px;
+    padding: 8px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -131,7 +131,7 @@ a:hover, a:active
     text-align: center;
     color:white;
     padding-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 170px;
  
 }
 
