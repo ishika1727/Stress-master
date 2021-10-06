@@ -8,19 +8,27 @@ Check it out [here](https://ishika1727.github.io/Stress-master/)!
 ### Frontend:
 * HTML 
 * CSS
-* Boostrap
+* Bootstrap
 * Javascript
 
 ### Backend+db (preferred):
 * NodeJS
-* EpressJS
+* ExpressJS
 * MongoDB
 
 ### Learning the Tech Stack 
-1. HTML: https://www.w3schools.com/html/
-2. CSS: https://www.w3schools.com/css/
-3. BOOSTRAP: https://www.w3schools.com/bootstrap/
-4. JAVSCRIPT: https://www.w3schools.com/js/
+1. HTML: 
+https://www.w3schools.com/html/
+https://developer.mozilla.org/en-US/docs/Web/HTML
+2. CSS: 
+https://www.w3schools.com/css/
+https://developer.mozilla.org/en-US/docs/Web/CSS
+3. BOOTSTRAP: 
+https://www.w3schools.com/bootstrap/
+https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap
+4. JAVASCRIPT: 
+https://www.w3schools.com/js/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ## Components
 

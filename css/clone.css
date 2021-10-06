@@ -158,9 +158,9 @@ a:hover, a:active
     text-align: center;
     color:white;
     float:none;
-    border: 3px solid white;
-    border-radius: 1em;
-    padding:2%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding:1.5%;
     background-color: black;
     transition: all 0.3s;
 }
@@ -276,46 +276,6 @@ dd
     text-align: center;
     font-size: 30px;
 }
-#contact
-{
-    background: url("../assests/teamback.jpg");
-    background-size: cover;
-    text-align: center;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-}
-.contacttext
-{
-    color: rgb(202, 202, 202);
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.contacttexttext
-{
-    color: white;
-    font-style: italic;
-    font-size: 20px;
-}
-a.follow
-{
-    text-align: center;
-    float: none;
-    color: white;
-    font-style: italic;
-    font-size: 20px;
-}
-
-.list-of-icons{
-    display: flex;
-    justify-content: center;
-}
-.icon{
-     height: 50px;
-    width: 50px;
-    margin: 0px;
-    border-radius: 50%;
-}
 
 /* width of scrollbar */
 ::-webkit-scrollbar {
@@ -335,4 +295,30 @@ a.follow
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #bcedefa3; 
+}
+
+/* ===== FOOTER =====*/
+.footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    padding: 4rem;
+}
+.footer__title{
+    font-size: 2rem;
+    margin-bottom: 1px;
+}
+.footer__content{
+      font-size: 1.5rem;
+      margin-bottom: 1px;
+}
+.footer__social{
+    margin-bottom: 4px;
+}
+.footer__icon{
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 1px;
+    align-items: center;
 }
