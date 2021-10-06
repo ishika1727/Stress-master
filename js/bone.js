@@ -20,7 +20,7 @@ function res()
         s=s+parseInt(x.elements[i].value);
     }
     if(flag==0)
-    document.getElementById("result").innerHTML="Your Result is "+ s +" out of 75";
+    document.getElementById("result").innerHTML="Your Result is "+ s/2 +" out of 75";
     if(flag==1)
     document.getElementById("result").innerHTML="please enter valid data";
     
