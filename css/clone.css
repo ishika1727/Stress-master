@@ -311,12 +311,15 @@ a.follow
     justify-content: center;
 }
 .icon{
+    transition: .6s all;
      height: 50px;
     width: 50px;
     margin: 0px;
     border-radius: 50%;
 }
-
+.icon:hover{
+    filter: invert(1);
+}
 /* width of scrollbar */
 ::-webkit-scrollbar {
   width: 14px;
