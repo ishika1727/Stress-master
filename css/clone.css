@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .nav {
     position: sticky;
     top: 0;
@@ -35,7 +37,7 @@
 }
 a:link, a:visited 
 {
-    float: right;
+    /* float: right; */
     color: white;
     font-size: 18px;
     padding: 14px 25px;
@@ -176,6 +178,15 @@ dl
     padding-bottom: 3%;
     margin-top: 0%;
     padding-left: 2%;
+}
+/* for smooth scrolling */
+dt a
+{
+    position: relative;
+    left: -1.3rem;
+    color: white !important;
+    text-decoration: underline !important;
+    font-size: 30px !important;
 }
 dt
 {
