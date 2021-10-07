@@ -35,9 +35,10 @@ html {
     font-size: 30px;
     padding-top: 2%; 
 }
-a:link, a:visited 
+nav a:link, 
+nav a:visited 
 {
-    /* float: right; */
+    float: right;
     color: white;
     font-size: 18px;
     padding: 14px 25px;
@@ -183,7 +184,7 @@ dl
 dt a
 {
     position: relative;
-    left: -1.3rem;
+    /* left: -1.3rem; */
     color: white !important;
     text-decoration: underline !important;
     font-size: 30px !important;
