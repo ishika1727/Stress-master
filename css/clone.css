@@ -23,14 +23,17 @@
     z-index: -1;
     opacity: 0.8;
 }
-
+#logo{
+    height: 90px;
+    padding-left: 30px;
+}
 #one1
 {
     color: white;
-    border-left: 6px solid greenyellow;
+  
     height: auto;
     margin-left: 2%;
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 2%; 
 }
 a:link, a:visited 
@@ -45,6 +48,7 @@ a:link, a:visited
 }
 a:hover, a:active
 {
+    display: inline-block;
     color: greenyellow;
 }
 .navbtn{
@@ -87,7 +91,7 @@ a:hover, a:active
 }
 @media(max-width:950px){
     .nav{
-        height: 15vh;
+        height: 10px;
     }
     #one2{
         display: none;
@@ -210,7 +214,7 @@ dd
 }
 #test
 {
-    background-color: paleturquoise;
+    background-color: rgb(2, 73, 73);
     padding-top: 1%;
 }
 .formtext
@@ -334,5 +338,5 @@ a.follow
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #bcedefa3; 
+  background: #006164a3; 
 }
