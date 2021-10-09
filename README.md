@@ -36,7 +36,7 @@ It contains a small test where users enter the values based on their experience 
 This section provides user with methods to reduce stress through calm music, motivational videos, etc. Contact to counsellor option is also given to seek proper help when and if necessary.
 
 ## Ongoing work :woman_technologist:
-Creating and linking to database using MonoDB and NodeJS
+Creating and linking to database using MongoDB and NodeJS
 
 ## Screenshots
 
