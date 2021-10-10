@@ -3,7 +3,9 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .nav {
     position: sticky;
     top: 0;
@@ -36,7 +38,8 @@
     font-size: 30px;
     padding-top: 2%; 
 }
-a:link, a:visited 
+nav a:link, 
+nav a:visited 
 {
     float: right;
     color: white;
@@ -178,6 +181,15 @@ dl
     padding-bottom: 3%;
     margin-top: 0%;
     padding-left: 2%;
+}
+/* for smooth scrolling */
+dt a
+{
+    position: relative;
+    /* left: -1.3rem; */
+    color: white !important;
+    text-decoration: underline !important;
+    font-size: 30px !important;
 }
 dt
 {
