@@ -101,7 +101,6 @@ a:hover, a:active
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 40vh;
         background-color: black;
         justify-content: flex-start;
         align-items: left;

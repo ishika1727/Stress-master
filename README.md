@@ -8,19 +8,19 @@ Check it out [here](https://ishika1727.github.io/Stress-master/)!
 ### Frontend:
 * HTML 
 * CSS
-* Boostrap
+* Bootstrap
 * Javascript
 
 ### Backend+db (preferred):
 * NodeJS
-* EpressJS
+* ExpressJS
 * MongoDB
 
 ### Learning the Tech Stack 
 1. HTML: https://www.w3schools.com/html/
 2. CSS: https://www.w3schools.com/css/
-3. BOOSTRAP: https://www.w3schools.com/bootstrap/
-4. JAVSCRIPT: https://www.w3schools.com/js/
+3. BOOTSTRAP: https://www.w3schools.com/bootstrap/
+4. JAVASCRIPT: https://www.w3schools.com/js/
 
 ## Components
 
@@ -36,7 +36,7 @@ It contains a small test where users enter the values based on their experience 
 This section provides user with methods to reduce stress through calm music, motivational videos, etc. Contact to counsellor option is also given to seek proper help when and if necessary.
 
 ## Ongoing work :woman_technologist:
-Creating and linking to database using MonoDB and NodeJS
+Creating and linking to database using MongoDB and NodeJS
 
 ## Screenshots
 
