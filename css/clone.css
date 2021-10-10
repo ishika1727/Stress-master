@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 .nav {
     position: sticky;
     top: 0;
@@ -12,6 +9,8 @@
     height: 20vh;
     width: 100%;
     margin-bottom: 0;
+
+    z-index: 2000;
 }
 #one::before {
     content: "";
@@ -35,7 +34,8 @@
     font-size: 30px;
     padding-top: 2%; 
 }
-a:link, a:visited 
+nav a:link, 
+nav a:visited 
 {
     float: right;
     color: white;
@@ -101,7 +101,6 @@ a:hover, a:active
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 40vh;
         background-color: black;
         justify-content: flex-start;
         align-items: left;
@@ -191,6 +190,15 @@ dl
     margin-top: 0%;
     padding-left: 2%;
 }
+/* for smooth scrolling */
+dt a
+{
+    position: relative;
+    /* left: -1.3rem; */
+    color: white !important;
+    text-decoration: underline !important;
+    font-size: 30px !important;
+}
 dt
 {
     font-size: 30px;
@@ -207,6 +215,8 @@ dd
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
+    color: #fff;
+    margin: 0.8rem 0rem;
     padding:0.01%;
     text-align: center;
 }
@@ -312,6 +322,7 @@ dd
     color: rgb(202, 202, 202);
     font-size: 20px;
     font-weight: bold;
+    line-height: 1.8rem;
     text-decoration: underline;
 }
 .contacttexttext
@@ -339,7 +350,9 @@ a.follow
     margin: 0px;
     border-radius: 50%;
 }
-
+.icon:hover {
+  transform: scale(1.3);
+}
 /* width of scrollbar */
 ::-webkit-scrollbar {
   width: 14px;
