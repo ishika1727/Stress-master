@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 .nav {
     position: sticky;
     top: 0;
@@ -141,6 +142,7 @@ a:hover, a:active
 .mid img {
     width: 60%;
     height: auto;
+    border-radius: 10px;
 }
 
 #one31
@@ -169,6 +171,17 @@ a:hover, a:active
     color: rgb(40, 66, 0);
     border: 3px solid rgb(92, 153, 0);
 }
+
+#about {
+    background: linear-gradient(to top left,#CAF1DE, #acddde);
+}
+
+hr {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 dl
 {
     background-color: black;
@@ -189,6 +202,8 @@ dd
 }
 .abouta
 {
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-weight: bold;
     padding:0.01%;
@@ -196,13 +211,20 @@ dd
 }
 .abouttexthead
 {
+    font-family: 'Baloo Bhaina 2', cursive;
     text-align: center;
     text-decoration: underline;
     padding-top: 1%;
     font-size: 30px;
+    text-decoration: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
 .abouttexttext
 {
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     padding-bottom:1%;
