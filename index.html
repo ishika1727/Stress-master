@@ -1,22 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-
-
-
-        <meta charset="UTF-8">
+<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link href="./css/clone.css" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="./js/bone.js">
         </script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>STRESS MASTER</title>
+</head>
+
+<body>
+    <div id="one">
+        <div class="fix">
+            <div class="vl"></div>
+            <div align="left" id="one1">
+                STRESS FIT
+            </div>
+            <div id="one2" align="right">
+                <a href="#contact">Contact Us </a>
+                <a href="#about">About Us </a>
+                <a href="#test">Stress Test </a>
+                <a href="#team">Team </a>
+                <a href="./templates/login.html">Login </a>
+                <a href="./templates/signup.html">Sign Up </a>
+                <a href="#soln">Smart Solutions </a>
+                <a href="./templates/diet2.html">Diet Plan </a>
+                <a href="#one">Home </a>
+            </div>
+        </div>
+
+        <div id="one3">
+            <h1>
+                <centre>GENERAL <br> STRESS<br>
+            </h1>
+            <p id="one31">Feeling stressed? And dont know WHY?</p>
+            </centre>
+            <a href="#test" id="one32">START TEST</a>
+        </div>
+    </div>
+
+    <div id="two">
+        <dl>
+            <dt>
+                                <br>Generic Stress Test
+                        </dt>
+            <dd>
+                <br>Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry or nervous.
+            </dd>
+            <dt>
+                                <br>Relationship Stress Test
+                        </dt>
+            <dd>
+                <br>Relationship conflict and stress have been shown to have a clear negative impact on health affecting blood pressure contributing to heart diseases and correlating with other conditions.
+            </dd>
+            <dt>
+                                <br>Academic Stress Test
+                        </dt>
+            <dd>
+                <br>Academic Stress is a mental distress with respect to some anticipated frustration associated with academic failure or even unawareness to the possibility of such failure.
+            </dd>
+            <dt>
+                                <br>Financial Stress Test
+                        </dt>
+            <dd>
+                <br>Feelings of Financial stress often stem from common issues such as carrying too much det, not earning enough money, and being unemployed.
+            </dd>
+            <dt>
+                                <br>Social Media Stress Test
+                        </dt>
+            <dd>
+                <br>Among the common negative effects of social media use are stress,anxiety, depression, addiction, cyberbullying, hacking, scams, cheating and even death.
+            </dd>
+            <dt>
+                                <br>Extra-Curricular Stress
+                        </dt>
+            <dd>
+                <br>This stress arises where work demands of various types and combinations exceed the person's capability and capacity to cope up with various situations.
+            </dd>
+        </dl>
+    </div>
+
+    <div id="about">
+        <center>
+            <p class="abouta">ABOUT US</p>
+            <hr>
+            <p class="abouttexttext">We as VITians are glad to help you to relieve your stress. We are working out best to give you the best experience to release your stress.</p>
+        </center>
+        <div class="mid">
+            <img src="./assests/1.jpg" id="aboutimg">
+        </div>
+        <p class="abouttexthead">Our Mission</p>
+        <p class="abouttexttext">In this modern era, with our busy schedules we aren't able to focus much on our mental and physical health. But don't worry, we are here to help you out with all your problems. Here, we provide you with stress buster activities.</p>
+        <div class="mid">
+            <img src="./assests/2.jpg" id="aboutimg">
+        </div>
+        <p class="abouttexthead">Our Plan</p>
+        <p class="abouttexttext">Based on your responses for our stress tests, we provide you with specific activities to relieve your stress. These activies include listening to calm music and motivational videos.</p>
+        <div class="mid">
+            <img src="./assests/3.jpg" id="aboutimg">
+        </div>
+        <p class="abouttexthead">Our Vision</p>
+        <p class="abouttexttext">To reduce stress in life of our fellow beings.</p>
+
+    </div>
+    <div id="test">
+        <p class="abouta">TEST
+            <hr>
+        </p>
+        <h2>
+            <center>On a scale of one to 5, with 5 being the worst, answer the following question:</center>
+        </h2><br>
+        <table>
+            <form method="POST" id="formtest">
+                <tr>
+                    <td>
+                        <p class="formtext">How tired do you feel waking up each morning ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you experience any of the following symptoms: headaches, chest pain, muscle tension, or nausea?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you experience fatigue and/or struggle to fall or stay asleep?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you get irritated by small mishaps ?
+                        </p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you wish to run away ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you worry excessively about your responsibilities?
+                        </p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you struggle to focus on tasks or stay motivated?
+                        </p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you feel that even though you have friends to talk to, but you still feel lonely ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you regret the choices you have made ?
+                        </p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you blame others ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you overthink and waste the entire day with only one though clinging on your mind ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How much irritated do you feel after a fully packed day with a lot of workload ?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you experience irritability, sadness, or anger?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext"> How often do you have little appetite or find that you are overeating?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="formtext">How often do you feel that you had overreacted to a particular situation?</p>
+                    </td>
+                    <td>
+                        <input type="number" size=2 maxlength=2 class="formnum">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <center>
+            <div id="result">RESULT? click on submit.</div>
+            <br>
+            <input type="button" onclick="res()" value="Submit" id="testbut">
+        </center>
+
+    </div>
+    <div id="call">
+        <h2>CALL TO ACTION</h2><br>
+        <p>Thinking to talk to someone and want to share your thoughts.</p><br>
+        <a href="https://www.onlinecounselling4u.com/" target="_blank">
+            <h1>CALL TO COUNSELLOR</h1>
+        </a><br><br><br><br>
+    </div>
+    <div id="soln">
+        <p class="abouta">SMART SOLUTION
+            <hr>
+        </p>
+        <center><br>
+            <iframe src="https://www.youtube.com/embed/wnHW6o8WMas" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>video</iframe>
+            <p class="solntext">Motivational Video</p>
+            <p class="solntexttext">To rejuvenate your soul<br>Recomended for stress score : 0-40</p><br>
+            <iframe src="https://youtu.be/sztFHij0_W0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>video</iframe>
+            <p class="solntext">Calm Music</p>
+            <p class="solntexttext">To Relax your neurons to the core !<br>Recomended for stress score: 40-65
+            </p><br>
+            <img src="./assests/solnimg.png">
+            <p class="solntext">Professional Counselling</p>
+            <p class="solntexttext">For those, who just need a little bit of external push , to make it big in their lives!<br>Recomended for stress score :65-75!</p><br>
+        </center>
+
+    </div>
+    <div id="team">
+        <p class="abouta">TEAM
+            <hr>
+        </p>
+        <center>
+            <table id="teamtable">
+                <tr>
+                    <td>
+                        <img src="./assests/kashish.jpg" class="teamimg">
+                    </td>
+                    <td>
+                        <img src="./assests/ishika.jpeg" class="teamimg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        KASHISH
+                    </td>
+                    <td>
+                        ISHIKA
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div id="contact">
+        <p class="abouta">CONTACT US
+            <hr>
+        </p>
+        <center>
+            <p class="contacttext">Address</p>
+            <p class="contacttexttext">Vellore Institute Of Technology, Vellore</p>
+            <p class="contacttext">Phone Number</p>
+            <p class="contacttexttext">9876543210</p>
+            <p class="contacttext">E-mail</p>
+            <p class="contacttexttext">ishikadubey2000@gmail.com</p>
+            <p class="contacttext">Follow us on:</p>
+
+            <div class="list-of-icons">
+                <a class="follow" href="https://instagram.com/ishika.1727?igshid=rehwxi3qpu95"><img src="./assests/instagram.png" alt="Instagram" class="icon"></a>
+                <a class="follow" href="https://www.facebook.com/ishika.dubey.1276487"><img src="./assests/facebook.png" alt="Facebook" class="icon"></a>
+                <a class="follow" href="https://www.linkedin.com/in/ishika1727"><img src="./assests/linkedin.png" alt="LinkedIn" class="icon"></a>
+                </li>
+            </div>
+
+        </center>
+    </div>
+
         <style>
-                  html, body{
+    html, body{
   margin: 0;
   box-sizing: border-box;
  overflow-x: hidden;
@@ -33,7 +352,7 @@ a{
         #one
           {
           
-              background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(241, 87, 87, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
+              background: linear-gradient( 135deg, rgb(252, 207, 49, 0.5), rgb(241, 87, 87, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
               background-size: cover;
               margin: 0;
               padding: 0;
@@ -250,6 +569,7 @@ a{
               margin: 0px;
           }
         </style>
+
 </head>
 
 <body>
@@ -261,10 +581,10 @@ a{
 
                 <div class="fix">
                         <div class="vl"></div>
-                        <div align="left" id="one1">
+                        <div align="left" id="one1" data-aos='fade-down'>
                                 STRESS FIT
                         </div>
-                        <div id="one2">
+                        <div id="one2" data-aos='zoom-in'>
                                 <a href="#contact">Contact Us </a>
                                 <a href="#about">About Us </a>
                                 <a href="#test">Stress Test </a>
@@ -275,7 +595,7 @@ a{
                                 <a href="./templates/diet2.html">Diet Plan </a>
                                 <a href="#one">Home </a>
                         </div>
-                        <div id="one_2">
+                        <div id="one_2" data-aos='zoom-in'>
                                 <a href="#one">Home </a>
                                 <a href="#about">About Us </a>
                                 <a href="#test">Stress Test </a>
@@ -298,9 +618,9 @@ a{
                 </div>
         </nav>
         <main>
-                <div id="one">
-                        <div id="one3">
-                                <h1 class="mh">
+                <div id="one" >
+                        <div id="one3" data-aos='zoom-in'>
+                                <h1 class="mh" >
                                         <centre>GENERAL <br> STRESS<br>
                                 </h1>
                                 <p id="one31">Feeling stressed? And dont know WHY?</p>
@@ -312,7 +632,7 @@ a{
                 <div id="two">
                         <dl>
                                 <dt>
-                                        <br>Generic Stress Test
+                                        <br> <a href="#test">Generic Stress Test</a>
                                 </dt>
                                 <dd>
                                         <br>Stress is a feeling of emotional or physical tension. It can come from any
@@ -408,160 +728,161 @@ a{
                                 <form method="POST" id="formtest">
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How tired do you feel waking up each morning
+                                                        <p class="formtext"> 1) How tired do you feel waking up each morning
                                                                 ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you experience any of the
+                                                        <p class="formtext"> 2) How often do you experience any of the
                                                                 following
                                                                 symptoms: headaches, chest pain, muscle tension, or
                                                                 nausea?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you experience fatigue and/or
+                                                        <p class="formtext"> 3) How often do you experience fatigue and/or
                                                                 struggle
                                                                 to fall or stay asleep?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you get irritated by small
+                                                        <p class="formtext"> 4) How often do you get irritated by small
                                                                 mishaps ?
                                                         </p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you wish to run away ?</p>
+                                                        <p class="formtext"> 5) How often do you wish to run away ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you worry excessively about
+                                                        <p class="formtext"> 6) How often do you worry excessively about
                                                                 your
                                                                 responsibilities?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you struggle to focus on tasks
+                                                        <p class="formtext">7) How often do you struggle to focus on tasks
                                                                 or stay
                                                                 motivated?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you feel that even though you
+                                                        <p class="formtext">8) How often do you feel that even though you
                                                                 have
                                                                 friends to talk to, but you still feel lonely ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you regret the choices you have
+                                                        <p class="formtext">9) How often do you regret the choices you have
                                                                 made ?
                                                         </p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you blame others ?</p>
+                                                        <p class="formtext">10) How often do you blame others ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you overthink and waste the
+                                                        <p class="formtext">11) How often do you overthink and waste the
                                                                 entire day
                                                                 with only one though clinging on your mind ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
-                                        </tr>
+
+                                  </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How much irritated do you feel after a fully
+                                                        <p class="formtext">12) How much irritated do you feel after a fully
                                                                 packed
                                                                 day with a lot of workload ?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you experience irritability,
+                                                        <p class="formtext">13) How often do you experience irritability,
                                                                 sadness,
                                                                 or anger?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext"> How often do you have little appetite or
+                                                        <p class="formtext">14) How often do you have little appetite or
                                                                 find that
                                                                 you are overeating?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
 
                                         <tr>
                                                 <td>
-                                                        <p class="formtext">How often do you feel that you had
+                                                        <p class="formtext">15) How often do you feel that you had
                                                                 overreacted to a
                                                                 particular situation?</p>
                                                 </td>
                                                 <td>
-                                                        <input type="number" size=2 maxlength=2 class="formnum">
+                                                        <input type="number" size=2 maxlength=2 class="formnum" min="1" max="5">
                                                 </td>
                                         </tr>
                                 </form>
@@ -582,22 +903,22 @@ a{
                 </a><br><br><br><br>
         </div>
         <div id="soln">
-                <p class="abouta">SMART SOLUTION
+                <p class="abouta" data-aos='zoom-in'>SMART SOLUTION
                         <hr>
                 </p>
                 <center><br>
                         <iframe src="https://www.youtube.com/embed/wnHW6o8WMas" width="560" height="315" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>video</iframe>
+                                allowfullscreen data-aos='fade-down'>video</iframe>
                         <p class="solntext">Motivational Video</p>
                         <p class="solntexttext">To rejuvenate your soul<br>Recomended for stress score : 0-40</p><br>
                         <iframe src="https://youtube.com/embed/2OEL4P1Rz04" width="560" height="315" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>video</iframe>
+                                allowfullscreen data-aos='fade-down'>video</iframe>
                         <p class="solntext">Calm Music</p>
                         <p class="solntexttext">To Relax your neurons to the core !<br>Recomended for stress score:
                                 40-65</p><br>
-                        <img src="./assests/solnimg.png">
+                        <img src="./assests/solnimg.png" data-aos='fade-down'>
                         <p class="solntext">Professional Counselling</p>
                         <p class="solntexttext">For those, who just need a little bit of external push , to make it big
                                 in their lives!<br>Recomended for stress score :65-75!</p><br>
@@ -612,10 +933,10 @@ a{
                         <table id="teamtable">
                                 <tr>
                                         <td>
-                                                <img src="./assests/kashish.png" class="teamimg">
+                                                <img src="./assests/kashish.png" class="teamimg" data-aos='zoom-in'>
                                         </td>
                                         <td>
-                                                <img src="./assests/ishika.png" class="teamimg">
+                                                <img src="./assests/ishika.png" class="teamimg" data-aos='zoom-in'>
                                         </td>
                                 </tr>
                                 <tr>
@@ -629,7 +950,7 @@ a{
                         </table>
                 </center>
         </div>
-        <div id="contact">
+        <div id="contact" data-aos='fade-up'>
                 <p class="abouta">CONTACT US
                         <hr>
                 </p>
@@ -643,15 +964,28 @@ a{
                         <p class="contacttext">Follow us on:</p>
 
                         <div class="list-of-icons">
-                                <a class="follow" href="https://instagram.com/ishika.1727?igshid=rehwxi3qpu95"><img src="./assests/instagram.jpg" alt="Instagram" class="icon"></a>                 
+                                <a class="follow" href="https://instagram.com/ishika.1727?igshid=rehwxi3qpu95"><img src="./assests/instagram.jpg" alt="Instagram" class="icon"></a>
                                 <a class="follow" href="https://www.facebook.com/ishika.dubey.1276487"><img src="./assests/facebook.png" alt="Facebook" class="icon"></a>
                                 <a class="follow" href="https://www.linkedin.com/in/ishika1727"><img src="./assests/linkedin.png" alt="LinkedIn" class="icon"></a></li>
                                 <a class="follow" href="https://twitter.com/ishika1727"><img src="./assests/twitter.png" alt="twitter" class="icon"></a></li>
                         </div>
-                                
+
                 </center>
         </div>
+
           </div>
+
+
+
+
+         <!-- Importing Aos Package for "animation on scroll" -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+                AOS.init();
+        </script>
+
+
+
 </body>
 <script>
         $(document).ready(function () {
@@ -675,8 +1009,8 @@ a{
                 var c = document.getElementById("cross");
                 {
                    a.style.visibility="hidden";
-                   b.style.visibility="visible"; 
-                   c.style.visibility="visible"; 
+                   b.style.visibility="visible";
+                   c.style.visibility="visible";
 
                 }
         }
@@ -686,8 +1020,8 @@ a{
                 var c = document.getElementById("cross");
                 {
                    a.style.visibility="visible";
-                   b.style.visibility="hidden"; 
-                   c.style.visibility="hidden"; 
+                   b.style.visibility="hidden";
+                   c.style.visibility="hidden";
 
                 }
         }
