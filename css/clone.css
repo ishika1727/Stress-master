@@ -15,6 +15,7 @@
 .fix{
     width: 100%;
 }
+
 #one::before {
     content: "";
     height: 84vh;
@@ -28,17 +29,17 @@
     opacity: 0.8;
 }
 
-#one1
-{
+#one1 {
     color: white;
     border-left: 6px solid greenyellow;
     height: auto;
     margin-left: 2%;
     font-size: 30px;
-    padding-top: 2%; 
+    padding-top: 2%;
 }
-a:link, a:visited 
-{
+
+a:link,
+a:visited {
     float: right;
     color: white;
     font-size: 18px;
@@ -47,59 +48,69 @@ a:link, a:visited
     text-decoration: none;
     display: inline-block;
 }
-a:hover, a:active
-{
+
+a:hover,
+a:active {
     color: greenyellow;
 }
-.navbtn{
+
+.navbtn {
     position: absolute;
-    top:20px;
+    top: 20px;
     right: 10px;
 }
-.navbtn1{
+
+.navbtn1 {
     position: absolute;
-    top:20px;
+    top: 20px;
     right: 10px;
-    visibility: hidden ;
+    visibility: hidden;
 }
+
+
 /* navbar responsive  */
-@media(max-width:1600px){
-    #one2{
+
+@media(max-width:1600px) {
+    #one2 {
         display: block;
     }
-    #one_2{
+    #one_2 {
         display: none;
     }
-    .navbtn{
+    .navbtn {
         display: none;
     }
 }
+
 @media(max-width:1200px) {
-    a:link, a:visited {
+    a:link,
+    a:visited {
         font-size: 18px;
         padding: 4px 15px;
-    }    
+    }
 }
+
 @media(max-width:850px) {
     #one::before {
         height: 120vh;
     }
-    a:link, a:visited {
+    a:link,
+    a:visited {
         padding: 4px 5px;
     }
-    
 }
-@media(max-width:950px){
-    .nav{
+
+@media(max-width:950px) {
+    .nav {
         height: 15vh;
     }
-    #one2{
+    #one2 {
         display: none;
     }
-    #one::before{
-        top:15vh;
+    #one::before {
+        top: 15vh;
     }
-    #one_2{
+    #one_2 {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -110,19 +121,18 @@ a:hover, a:active
         margin: 0;
         visibility: hidden;
     }
-    #one_2 a{
+    #one_2 a {
         text-align: left;
         padding-left: 5%;
-
     }
-    .navbtn{
+    .navbtn {
         display: block;
     }
-
 }
+
 @media(max-width:600px) {
     #one::before {
-        top:15vh;
+        top: 15vh;
         height: 80vh;
     }
 }
@@ -132,47 +142,50 @@ a:hover, a:active
 .mh span{
     color: rgb(154, 255, 2);
 }
-#one3
-{
+.mh {
+    font-size: 1.1em;
+}
+
+#one3 {
     font-size: 60px;
     text-align: center;
-    color:white;
+    color: white;
     padding-bottom: 10%;
     margin-top: 10%;
- 
 }
 
 .mid {
     text-align: center;
 }
+
 .mid img {
     width: 60%;
     height: auto;
 }
 
-#one31
-{
+#one31 {
     font-size: 30px;
     text-align: center;
     color:white;
 }
-#one32
-{
+#one32 {
     font-size: 30px;
     text-align: center;
-    color:white;
-    float:none;
+    color: white;
+    float: none;
     border: 3px solid white;
     border-radius: 1em;
-    padding:2%;
+    padding: 2%;
     background-color: black;
     transition: all 0.3s;
 }
-#one32:hover{
-    background-color: rgb(173,255,47);
+
+#one32:hover {
+    background-color: rgb(173, 255, 47);
     color: rgb(40, 66, 0);
     border: 3px solid rgb(92, 153, 0);
 }
+
 #two{
     display: flex;
     justify-content: space-around;
@@ -197,118 +210,144 @@ a:hover, a:active
 #two .card a:hover{
     background-color: rgb(155 247 13);
 }
-.abouta
-{
+
+.abouta {
     font-size: 40px;
     font-weight: bold;
-    padding:0.01%;
+    padding: 0.01%;
     text-align: center;
+    margin: 35px 0 11px 0
 }
-.abouttexthead
-{
+
+.abouttexthead {
     text-align: center;
     text-decoration: underline;
     padding-top: 1%;
     font-size: 30px;
 }
-.abouttexttext
-{
+
+.abouttexttext {
     text-align: center;
     text-decoration: none;
-    padding-bottom:1%;
+    padding-bottom: 1%;
     font-size: 20px;
 }
-#test
-{
+
+#test {
     background-color: paleturquoise;
     padding-top: 1%;
 }
-.formtext
-{
+
+.formtext {
     font-size: 20px;
     padding-left: 1%;
 }
-#testbut
-{
+
+#testbut {
     background-color: gray;
     font-size: 30px;
     padding: 1%;
     text-align: center;
-    margin-left:2%;
+    margin-left: 2%;
     border: 2px solid white;
     border-radius: 1em;
     margin-bottom: 2%;
 }
-#call
-{
+
+#call {
     margin: 0%;
     padding: 2%;
     background: url("../assests/callback.jpg");
     background-size: cover;
-    color: white; 
+    color: white;
 }
-#callbutton
-{
+
+#callbutton {
     background-color: white;
     font-size: 20px;
     padding: 0.3%;
     text-align: center;
     border: 1px solid white;
-    border-radius: 0.5em; 
-    color: black;   
+    border-radius: 0.5em;
+    color: black;
 }
-.solntext
-{
+
+.solntext {
     font-weight: bold;
     font-size: 30px;
 }
-.solntexttext
-{
+
+.solntexttext {
     font-style: italic;
     font-size: 20px;
 }
-#team
-{
-    background: url("../assests/teamback.jpg");
-    background-size: cover;
+
+#team {
+    /* background: url("../assests/teamback.jpg");
+    background-size: cover; */
+    background-color: rgb(137 135 135);
     color: white;
     text-align: center;
     padding-top: 0.5%;
 }
-.teamimg
-{
-    width:50%;    
+
+.teamimg {
+    width: 50%;
 }
-#teamtable
-{
-    padding:3%;
-    margin:3%;
-    text-align: center;
+
+#teamtable {
+    padding: 3% 3% 6% 3%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
 }
-#contact
-{
+
+.teamDiv {
+    /* border:2px solid red; */
+    height: 345px;
+    width: 238px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-color: #a4783a;
+    box-shadow: 0 0 14px rgb(255, 255, 255);
+}
+
+.teamDiv img {
+    height: 287px;
+    width: 238px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.teamDiv span {
+    font-size: 25px;
+}
+
+#contact {
     background: url("../assests/teamback.jpg");
     background-size: cover;
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 2%;
 }
-.contacttext
-{
+
+.contacttext {
     color: rgb(202, 202, 202);
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
 }
-.contacttexttext
-{
+
+.contacttexttext {
     color: white;
     font-style: italic;
     font-size: 20px;
 }
-a.follow
-{
+
+a.follow {
     text-align: center;
     float: none;
     color: white;
@@ -316,33 +355,38 @@ a.follow
     font-size: 20px;
 }
 
-.list-of-icons{
+.list-of-icons {
     display: flex;
     justify-content: center;
 }
-.icon{
-     height: 50px;
+
+.icon {
+    height: 50px;
     width: 50px;
     margin: 0px;
     border-radius: 50%;
 }
 
+
 /* width of scrollbar */
+
 ::-webkit-scrollbar {
-  width: 14px;
+    width: 14px;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-  background: #0e0d0d; 
-  border-radius: 10px;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+    background: #0e0d0d;
+    border-radius: 10px;
+}
+
+
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-  background: #bcedefa3; 
+    background: #bcedefa3;
 }

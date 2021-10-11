@@ -7,42 +7,37 @@
 </head>
 
 <body>
-    <div id="one">
+    <div id="loginDiv">
         <div class="vl"></div>
         <div align="left" id="one1">
             SIGN UP
         </div>
         <div id="one2" align="right">
-            <a href="./login.html">Login</a>
-            <a href="../index.html">Home </a>            
-        </div>
-        <div id="wel">Sign Up For Free</div>
-        <form class="form" name="form" method="post">
-            <ul>
-                <li>
-                    <label>Name</label>
-                    <input type="text" name="name" maxlength="100">
-                    <span>Enter your full name</span>
-                </li>
-                <li>
-                    <label>Email</label>
-                    <input type="email" name="email" maxlength="100">
-                    <span>Enter your registered email here</span>
-                <li>
-                    <label>Set a Password</label>
-                    <input type="password" name="password">
-                    <span>Enter Password here</span>
-                </li>
 
-                <li>
-                    <input type="submit" value="Get Started" >
-                </li>
-            </ul>
-        </form>
-        <br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br>
-    </div>
-    </div>
+            <a href="../index.html">Home</a>
+            <a href="./login.html">Login</a>
+        </div>
+        <div id="formDiv">
+            <form class="form" id="signupPg" name="form" method="post">
+                <ul>
+                    <li>
+                        <h1>Sign Up For Free</h1>
+                    </li>
+                    <li>
+                        <input type="text" name="name" class="info" maxlength="100" placeholder="Enter your full name">
+                    <li>
+                        <input type="email" name="email" maxlength="100" class="info"
+                            placeholder="Enter your registered email">
+                    </li>
+                    <li>
+                        <input type="password" name="password" class="info" placeholder="Enter password">
+                    </li>
+                    <li>
+                        <input type="submit" id="butt" value="Get Started">
+                    </li>
+                </ul>
+            </form>
+        </div>
 </body>
 
 </html>
