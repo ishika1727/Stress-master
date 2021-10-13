@@ -12,6 +12,16 @@
 
     z-index: 2000;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 #one::before {
     content: "";
     height: 132vh;
@@ -349,9 +359,11 @@ a.follow
     width: 50px;
     margin: 0px;
     border-radius: 50%;
+    transition: all .5s linear;
+
 }
 .icon:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 /* width of scrollbar */
 ::-webkit-scrollbar {
