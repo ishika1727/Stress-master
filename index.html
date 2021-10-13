@@ -7,6 +7,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/bone.js">
     </script>
+    <!-- Link and Script For Test Section -->
+    <link rel="stylesheet" href="./css/test-section.css">
+    <script defer src="./js/test-section.js"></script>
     <title>STRESS MASTER</title>
 </head>
 
@@ -104,160 +107,34 @@
         <p class="abouttexttext">To reduce stress in life of our fellow beings.</p>
 
     </div>
-    <div id="test">
-        <p class="abouta">TEST
-            <hr>
-        </p>
-        <h2>
-            <center>On a scale of one to 5, with 5 being the worst, answer the following question:</center>
-        </h2><br>
-        <table>
-            <form method="POST" id="formtest">
-                <tr>
-                    <td>
-                        <p class="formtext">How tired do you feel waking up each morning ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you experience any of the following symptoms: headaches, chest pain, muscle tension, or nausea?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you experience fatigue and/or struggle to fall or stay asleep?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
+    
+        <!-- Test Section -->
+        <section id="test">
+                <h1 class="test-text">TEST</h1>
+                <h2 class="title">On a scale of one to 5, with 5 being the worst, answer the following question:
+                </h2>
+        
+                <h1 class="question-num" id="question-num">
+                    <!-- Generated Through Javascript -->
+                </h1>
+        
+                <h1 class="question-txt" id="question">
+                    <!-- Generated Through Javascript -->
+                </h1>
+        
+                <div id="answer-controll">
+                    <button id="decr-button" class="controll-button">-</button>
+                    <h1 id="answer">
+                        <!-- Generated Through Javascript -->
+                    </h1>
+                    <button id="inc-button" class="controll-button">+</button>
+                </div>
+                <div class="question-controll">
+                    <button id="prev-question-button" class="question-controll-button" >Previous</button>
+                    <button id="next-question-button" class="question-controll-button" >Next</button>
+                </div>
+            </section>
 
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you get irritated by small mishaps ?
-                        </p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you wish to run away ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you worry excessively about your responsibilities?
-                        </p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you struggle to focus on tasks or stay motivated?
-                        </p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you feel that even though you have friends to talk to, but you still feel lonely ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you regret the choices you have made ?
-                        </p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you blame others ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you overthink and waste the entire day with only one though clinging on your mind ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How much irritated do you feel after a fully packed day with a lot of workload ?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you experience irritability, sadness, or anger?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext"> How often do you have little appetite or find that you are overeating?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p class="formtext">How often do you feel that you had overreacted to a particular situation?</p>
-                    </td>
-                    <td>
-                        <input type="number" size=2 maxlength=2 class="formnum">
-                    </td>
-                </tr>
-            </form>
-        </table>
-        <center>
-            <div id="result">RESULT? click on submit.</div>
-            <br>
-            <input type="button" onclick="res()" value="Submit" id="testbut">
-        </center>
-
-    </div>
     <div id="call">
         <h2>CALL TO ACTION</h2><br>
         <p>Thinking to talk to someone and want to share your thoughts.</p><br>
