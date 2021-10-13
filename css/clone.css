@@ -1,3 +1,16 @@
+/* <<<<<<< master */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+#one
+{
+    background: url("../assests/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0%;
+    padding: 0%;
+/* ======= */
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +36,7 @@
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
+/* >>>>>>> master */
 }
 
 #one1
@@ -348,6 +362,13 @@ a.follow
      height: 50px;
     width: 50px;
     margin: 0px;
+/* <<<<<<< master */
+}
+#testbut:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+=======
     border-radius: 50%;
 }
 .icon:hover {
@@ -372,3 +393,4 @@ a.follow
 ::-webkit-scrollbar-thumb:hover {
   background: #bcedefa3; 
 }
+/* >>>>>>> master */
