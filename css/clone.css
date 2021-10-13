@@ -12,6 +12,18 @@
 
     z-index: 2000;
 }
+
+
+.fix {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    align-self: center;
+    align-content: center;
+    height: 122px;
+}
+
 #one::before {
     content: "";
     height: 132vh;
@@ -33,6 +45,9 @@
     margin-left: 2%;
     font-size: 30px;
     padding-top: 2%; 
+    width: 100px;
+    margin-left: 30px;
+    
 }
 nav a:link, 
 nav a:visited 
@@ -64,7 +79,21 @@ a:hover, a:active
 @media(max-width:1600px){
     #one2{
         display: block;
+        margin-left: 50px;
     }
+
+    #one2 a {
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+       padding: 5px;
+    }
+
+    #one2 a:hover {
+        border-bottom: red 2px solid;
+    }
+
+
     #one_2{
         display: none;
     }
@@ -94,6 +123,8 @@ a:hover, a:active
     #one2{
         display: none;
     }
+
+   
     #one::before{
         top:15vh;
     }
@@ -372,3 +403,4 @@ a.follow
 ::-webkit-scrollbar-thumb:hover {
   background: #bcedefa3; 
 }
+
