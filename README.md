@@ -10,11 +10,13 @@ Check it out [here](https://ishika1727.github.io/Stress-master/)!
 * CSS
 * Bootstrap
 * Javascript
+* Angular
 
 ### Backend+db (preferred):
 * NodeJS
 * ExpressJS
 * MongoDB
+* SQL
 
 ### Learning the Tech Stack 
 1. HTML: https://www.w3schools.com/html/
