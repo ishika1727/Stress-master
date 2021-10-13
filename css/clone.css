@@ -209,6 +209,16 @@ dd
     font-size: 20px;
     word-spacing: 2px;
 }
+#about{
+    margin: 4rem 0;
+}
+#about p{
+    margin: 2rem 0;
+}
+#about img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 22px 2px rgb(158, 158, 158);
+}
 .abouta
 {
     margin: 10px;
