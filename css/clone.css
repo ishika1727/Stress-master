@@ -1,354 +1,306 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
 
 .nav {
-    position: sticky;
-    top: 0;
-    background-color: black;
-    height: 20vh;
-    width: 100%;
-    margin-bottom: 0;
-
-    z-index: 2000;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  height: 20vh;
+  width: 100%;
+  margin-bottom: 0;
 }
 #one::before {
-    content: "";
-    height: 132vh;
-    width: 100%;
-    background: linear-gradient( 135deg, rgba(252, 207, 49, 0.5), rgba(245, 85, 85, 0.7) 100%), url("../assests/landing-page.jpg") no-repeat 0% 50%;
-    position: absolute;
-    top: 20vh;
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
-    opacity: 0.8;
+  content: "";
+  height: 132vh;
+  width: 100%;
+  background: linear-gradient(
+      135deg,
+      rgba(252, 207, 49, 0.5),
+      rgba(245, 85, 85, 0.7) 100%
+    ),
+    url("../assests/landing-page.jpg") no-repeat 0% 50%;
+  position: absolute;
+  top: 20vh;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.8;
 }
 
-#one1
-{
-    color: white;
-    border-left: 6px solid greenyellow;
-    height: auto;
-    margin-left: 2%;
-    font-size: 30px;
-    padding-top: 2%; 
+
+#one1 {
+  color: white;
+  border-left: 6px solid greenyellow;
+  height: auto;
+  margin-left: 2%;
+  font-size: 30px;
+  padding-top: 2%;
 }
-nav a:link, 
-nav a:visited 
-{
-    float: right;
-    color: white;
-    font-size: 18px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+a:link,
+a:visited {
+  float: right;
+  color: white;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-a:hover, a:active
-{
-    color: greenyellow;
+a:hover,
+a:active {
+  color: greenyellow;
 }
-.navbtn{
-    position: absolute;
-    top:20px;
-    right: 10px;
+.navbtn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
-.navbtn1{
-    position: absolute;
-    top:20px;
-    right: 10px;
-    visibility: hidden ;
+.navbtn1 {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  visibility: hidden;
 }
 /* navbar responsive  */
-@media(max-width:1600px){
-    #one2{
-        display: block;
-    }
-    #one_2{
-        display: none;
-    }
-    .navbtn{
-        display: none;
-    }
+@media (max-width: 1600px) {
+  #one2 {
+    display: block;
+  }
+  #one_2 {
+    display: none;
+  }
+  .navbtn {
+    display: none;
+  }
 }
-@media(max-width:1200px) {
-    a:link, a:visited {
-        font-size: 18px;
-        padding: 4px 15px;
-    }    
+@media (max-width: 1200px) {
+  a:link,
+  a:visited {
+    font-size: 18px;
+    padding: 4px 15px;
+  }
 }
-@media(max-width:850px) {
-    #one::before {
-        height: 120vh;
-    }
-    a:link, a:visited {
-        padding: 4px 5px;
-    }
-    
+@media (max-width: 850px) {
+  #one::before {
+    height: 120vh;
+  }
+  a:link,
+  a:visited {
+    padding: 4px 5px;
+  }
 }
-@media(max-width:950px){
-    .nav{
-        height: 15vh;
-    }
-    #one2{
-        display: none;
-    }
-    #one::before{
-        top:15vh;
-    }
-    #one_2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color: black;
-        justify-content: flex-start;
-        align-items: left;
-        margin: 0;
-        visibility: hidden;
-    }
-    #one_2 a{
-        text-align: left;
-        padding-left: 5%;
-
-    }
-    .navbtn{
-        display: block;
-    }
-
+@media (max-width: 950px) {
+  .nav {
+    height: 15vh;
+  }
+  #one2 {
+    display: none;
+  }
+  #one::before {
+    top: 15vh;
+  }
+  #one_2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: left;
+    margin: 0;
+    visibility: hidden;
+  }
+  #one_2 a {
+    text-align: left;
+    padding-left: 5%;
+  }
+  .navbtn {
+    display: block;
+  }
 }
-@media(max-width:600px) {
-    #one::before {
-        top:15vh;
-        height: 80vh;
-    }
+@media (max-width: 600px) {
+  #one::before {
+    top: 15vh;
+    height: 80vh;
+  }
 }
-.mh{
-    font-size: 1.1em;
+.mh {
+  font-size: 1.1em;
 }
-#one3
-{
-    font-size: 60px;
-    text-align: center;
-    color:white;
-    padding-bottom: 10%;
-    margin-top: 10%;
- 
+#one3 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10%;
+  margin-top: 10%;
 }
 
 .mid {
-    text-align: center;
+  text-align: center;
 }
 .mid img {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
+  width: 60%;
+  height: auto;
 }
 
-#one31
-{
-    font-size: 30px;
-    text-align: center;
-    color:white;
-    padding-bottom: 3%;
-    margin-top: 1%;
+#one31 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 3%;
+  margin-top: 1%;
+}
+#one32 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  float: none;
+  border: 3px solid white;
+  border-radius: 1em;
+  padding: 2%;
+  background-color: black;
+  transition: all 0.3s;
+}
+#one32:hover {
+  background-color: rgb(173, 255, 47);
+  color: rgb(40, 66, 0);
+  border: 3px solid rgb(92, 153, 0);
+}
+dl {
+  background-color: black;
+  color: white;
+  padding-bottom: 3%;
+  margin-top: 0%;
+  padding-left: 2%;
+}
+dt {
+  font-size: 30px;
+  text-decoration: underline;
+}
+dd {
+  font-size: 20px;
+  word-spacing: 2px;
+}
+.abouta {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0.01%;
+  text-align: center;
+}
+.abouttexthead {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 1%;
+  font-size: 30px;
+}
+.abouttexttext {
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 1%;
+  font-size: 20px;
+}
+#test {
+  background-color: paleturquoise;
+  padding-top: 1%;
+}
+.formtext {
+  font-size: 20px;
+  padding-left: 1%;
+}
+#testbut {
+  background-color: gray;
+  font-size: 30px;
+  padding: 1%;
+  text-align: center;
+  margin-left: 2%;
+  border: 2px solid white;
+  border-radius: 1em;
+  margin-bottom: 2%;
+}
+#call {
+  margin: 0%;
+  padding: 2%;
+  background: url("../assests/callback.jpg");
+  background-size: cover;
+  color: white;
+}
+#callbutton {
+  background-color: white;
+  font-size: 20px;
+  padding: 0.3%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 0.5em;
+  color: black;
+}
+.solntext {
+  font-weight: bold;
+  font-size: 30px;
+}
+.solntexttext {
+  font-style: italic;
+  font-size: 20px;
+}
+#team {
+  background: url("../assests/teamback.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 0.5%;
+}
+.teamimg {
+  width: 50%;
+}
+#teamtable {
+  padding: 3%;
+  margin: 3%;
+  text-align: center;
+  font-size: 30px;
+}
+#contact {
+  background: url("../assests/teamback.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+.contacttext {
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contacttexttext {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+a.follow {
+  text-align: center;
+  float: none;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+.icon:hover {
+  box-shadow: 5px 5px 10px black;
+  transform: translateY(-6px);
 
 }
-#one32
-{
-    font-size: 30px;
-    text-align: center;
-    color:white;
-    float:none;
-    border: 3px solid white;
-    border-radius: 1em;
-    padding:2%;
-    background-color: black;
-    transition: all 0.3s;
-}
-#one32:hover{
-    background-color: rgb(173,255,47);
-    color: rgb(40, 66, 0);
-    border: 3px solid rgb(92, 153, 0);
-}
 
-#about {
-    background: linear-gradient(to top left,#CAF1DE, #acddde);
+.list-of-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-hr {
-    display: block;
-    margin: auto;
-    width: 50%;
-}
-
-dl
-{
-    background-color: black;
-    color: white;
-    padding-bottom: 3%;
-    margin-top: 0%;
-    padding-left: 2%;
-}
-/* for smooth scrolling */
-dt a
-{
-    position: relative;
-    /* left: -1.3rem; */
-    color: white !important;
-    text-decoration: underline !important;
-    font-size: 30px !important;
-}
-dt
-{
-    font-size: 30px;
-    text-decoration: underline;
-}
-dd
-{
-    font-size: 20px;
-    word-spacing: 2px;
-}
-.abouta
-{
-    margin: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: #fff;
-    margin: 0.8rem 0rem;
-    padding:0.01%;
-    text-align: center;
-}
-.abouttexthead
-{
-    font-family: 'Baloo Bhaina 2', cursive;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 1%;
-    font-size: 30px;
-    text-decoration: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
-
-.abouttexttext
-{
-    font-family: 'Lato', sans-serif;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    padding-bottom:1%;
-    font-size: 20px;
-}
-#test
-{
-    background-color: paleturquoise;
-    padding-top: 1%;
-}
-.formtext
-{
-    font-size: 20px;
-    padding-left: 1%;
-}
-#testbut
-{
-    background-color: gray;
-    font-size: 30px;
-    padding: 1%;
-    text-align: center;
-    margin-left:2%;
-    border: 2px solid white;
-    border-radius: 1em;
-    margin-bottom: 2%;
-}
-#call
-{
-    margin: 0%;
-    padding: 2%;
-    background: url("../assests/callback.jpg");
-    background-size: cover;
-    color: white; 
-}
-#callbutton
-{
-    background-color: white;
-    font-size: 20px;
-    padding: 0.3%;
-    text-align: center;
-    border: 1px solid white;
-    border-radius: 0.5em; 
-    color: black;   
-}
-.solntext
-{
-    font-weight: bold;
-    font-size: 30px;
-}
-.solntexttext
-{
-    font-style: italic;
-    font-size: 20px;
-}
-#team
-{
-    background: url("../assests/teamback.jpg");
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding-top: 0.5%;
-}
-.teamimg
-{
-    width:50%;    
-}
-#teamtable
-{
-    padding:3%;
-    margin:3%;
-    text-align: center;
-    font-size: 30px;
-}
-#contact
-{
-    background: url("../assests/teamback.jpg");
-    background-size: cover;
-    text-align: center;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-}
-.contacttext
-{
-    color: rgb(202, 202, 202);
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.8rem;
-    text-decoration: underline;
-}
-.contacttexttext
-{
-    color: white;
-    font-style: italic;
-    font-size: 20px;
-}
-a.follow
-{
-    text-align: center;
-    float: none;
-    color: white;
-    font-style: italic;
-    font-size: 20px;
-}
-
-.list-of-icons{
-    display: flex;
-    justify-content: center;
-}
-.icon{
-     height: 50px;
-    width: 50px;
-    margin: 0px;
-    border-radius: 50%;
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  border-radius: 10%;
+  transition: all 400ms;
 }
 .icon:hover {
   transform: scale(1.3);
