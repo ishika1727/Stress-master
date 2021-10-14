@@ -8,19 +8,19 @@ Check it out [here](https://ishika1727.github.io/Stress-master/)!
 ### Frontend:
 * HTML 
 * CSS
-* Boostrap
+* Bootstrap
 * Javascript
 
 ### Backend+db (preferred):
 * NodeJS
-* EpressJS
+* ExpressJS
 * MongoDB
 
 ### Learning the Tech Stack 
 1. HTML: https://www.w3schools.com/html/
 2. CSS: https://www.w3schools.com/css/
-3. BOOSTRAP: https://www.w3schools.com/bootstrap/
-4. JAVSCRIPT: https://www.w3schools.com/js/
+3. BOOTSTRAP: https://www.w3schools.com/bootstrap/
+4. JAVASCRIPT: https://www.w3schools.com/js/
 
 ## Components
 
@@ -30,13 +30,13 @@ User fills in some data like type of diet, allergic food items, etc and a diet c
 [Spoonacular Generate Meal Plan](https://spoonacular.com/food-api/docs#Generate-Meal-Plan) 
 
 ### Stress Test
-It contains a small test where users enter the values based on his experience throughout the day and the system detects level of stress along with smart solutions in order to reduce stress.
+It contains a small test where users enter the values based on their experience throughout the day and the system detects level of stress along with smart solutions in order to reduce stress.
 
 ### Smart Solutions 
 This section provides user with methods to reduce stress through calm music, motivational videos, etc. Contact to counsellor option is also given to seek proper help when and if necessary.
 
 ## Ongoing work :woman_technologist:
-Creating and linking to database using MonoDB and NodeJS
+Creating and linking to database using MongoDB and NodeJS
 
 ## Screenshots
 
@@ -48,5 +48,7 @@ Creating and linking to database using MonoDB and NodeJS
 
 
 ## Contributors :trophy:
+
 |      Name :medal_military:    |     Social Media :wave:    | GitHub :octocat: |
+|:-------------:|:-------------------|------------------|
 | Ishika Dubey  | :bird: [Twitter](https://twitter.com/ishika1727) <br>:mortar_board: [LinkedIn](https://www.linkedin.com/in/ishika1727/) | [@ishika1727](https://github.com/ishika1727/)      |

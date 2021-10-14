@@ -29,6 +29,7 @@
   opacity: 0.8;
 }
 
+
 #one1 {
   color: white;
   border-left: 6px solid greenyellow;
@@ -286,6 +287,7 @@ a.follow {
 .icon:hover {
   box-shadow: 5px 5px 10px black;
   transform: translateY(-6px);
+
 }
 
 .list-of-icons {
@@ -299,4 +301,26 @@ a.follow {
   margin: 0px;
   border-radius: 10%;
   transition: all 400ms;
+}
+.icon:hover {
+  transform: scale(1.3);
+}
+/* width of scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #0e0d0d; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bcedefa3; 
 }

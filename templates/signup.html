@@ -3,6 +3,8 @@
 
 <head>
     <link href="../css/loginsignup.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>SIGNUP</title>
 </head>
 
@@ -17,7 +19,7 @@
             <a href="../index.html">Home </a>            
         </div>
         <div id="wel">Sign Up For Free</div>
-        <form class="form" name="form" method="post">
+        <form class="form" name="form" method="post" data-aos='zoom-in'>
             <ul>
                 <li>
                     <label>Name</label>
@@ -43,6 +45,13 @@
         <br><br><br><br><br><br><br>
     </div>
     </div>
+
+             <!-- Importing Aos Package for "animation on scroll" -->
+             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+             <script>
+                     AOS.init();
+             </script>
+     
 </body>
 
 </html>
