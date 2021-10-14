@@ -1,115 +1,117 @@
-#one
-{
-    background: url("../assests/ls.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+#one {
+  background: url("../assests/ls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-#one1
-{
-    color: rgb(51, 51, 51);
-    border-left: 6px solid #000000;
-    height: auto;
-    margin-left: 2%;
-    font-size: 30px;
-    padding-top: 2%; 
+#one1 {
+  color: rgb(51, 51, 51);
+  border-left: 6px solid #000000;
+  height: auto;
+  margin-left: 2%;
+  font-size: 30px;
+  padding-top: 2%;
 }
-a:link, a:visited 
-{
-    float: right;
-    color: rgb(51, 51, 51);
-    font-size: 20px;
-    font-weight: bold;
-    padding: 14px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+a:link,
+a:visited {
+  float: right;
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-.form{
-	max-width:400px;
-	margin:50px auto;
-	background:#ffffff;
-	border-radius:2px;
-	padding:20px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+.form {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.form ul{
-	list-style:none;
-	padding:0;
-	margin:0;	
+.form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.form li{
-	display: block;
-	padding: 9px;
-	border:1px solid rgb(173, 173, 173);
-	margin-bottom: 30px;
-	border-radius: 3px;
+.form li {
+  display: block;
+  padding: 9px;
+  border: 1px solid rgb(173, 173, 173);
+  margin-bottom: 30px;
+  border-radius: 3px;
 }
-.form li:last-child{
-	border:none;
-	margin-bottom: 0px;
-	text-align: center;
+.form li:last-child {
+  border: none;
+  margin-bottom: 0px;
+  text-align: center;
 }
-.form li > label{
-	display: block;
-	float: left;
-	margin-top: -19px;
-	background: rgb(165, 165, 165);
-	height: 14px;
-	padding: 2px 5px 2px 5px;
-	color: rgb(240, 232, 232);
-	font-size: 14px;
-	overflow: hidden;
-	font-family: Arial, Helvetica, sans-serif;
+.form li > label {
+  display: block;
+  float: left;
+  margin-top: -19px;
+  background: rgb(165, 165, 165);
+  height: 14px;
+  padding: 2px 5px 2px 5px;
+  color: rgb(240, 232, 232);
+  font-size: 14px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form input[type="submit"] {
+  cursor: pointer;
+  font-weight: bold;
 }
 .form input[type="email"],
+.form input[type="text"],
 .form input[type="password"],
 .form textarea,
-.form select 
-{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	width: 100%;
-	display: block;
-	outline: none;
-	border: none;
-	height: 25px;
-	line-height: 25px;
-	font-size: 16px;
-	padding: 0;
-	font-family: Georgia, "Times New Roman", Times, serif;
+.form select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.form li > span{
-	background: rgb(165, 165, 165);
-	display: block;
-	padding: 3px;
-	margin: 0 -9px -9px -9px;
-	text-align: center;
-	color: rgb(223, 223, 223);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
+.form li > span {
+  background: rgb(165, 165, 165);
+  display: block;
+  padding: 3px;
+  margin: 0 -9px -9px -9px;
+  text-align: center;
+  color: rgb(223, 223, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
 }
 .form input[type="submit"],
-.form input[type="button"]{
-	background:rgb(165, 165, 165);
-	border: none;
-	padding: 10px 20px 10px 20px;
-	border-bottom: 3px solid rgb(165, 165, 165);
-	border-radius: 3px;
-	color: rgb(238, 241, 239);
+.form input[type="button"] {
+  background: rgb(165, 165, 165);
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 3px solid rgb(165, 165, 165);
+  border-radius: 3px;
+  color: rgb(238, 241, 239);
 }
 .form input[type="submit"]:hover,
-.form input[type="button"]:hover{
-	background: #6B9FFF;
-	color:#ffffff;
+.form input[type="button"]:hover {
+  background: #6b9fff;
+  color: #ffffff;
 }
-a:hover, a:active
-{
-    color: #0000ff;
+a:hover,
+a:active {
+  color: #0000ff;
 }
-#wel
-{ 
-	padding-left: 39%; 
-	font-size: 50px;
-	margin-top: 5%;
+#wel {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
 }
