@@ -52,3 +52,4 @@ Creating and linking to database using MongoDB and NodeJS
 |      Name :medal_military:    |     Social Media :wave:    | GitHub :octocat: |
 |:-------------:|:-------------------|------------------|
 | Ishika Dubey  | :bird: [Twitter](https://twitter.com/ishika1727) <br>:mortar_board: [LinkedIn](https://www.linkedin.com/in/ishika1727/) | [@ishika1727](https://github.com/ishika1727/)      |
+Thanks.
